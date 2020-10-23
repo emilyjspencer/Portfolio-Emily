@@ -1,11 +1,12 @@
 .body {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(189, 181, 181);
     width: 100%;
 }
 
+
 .typical {
   font-size: 60px;
-  color: rgb(218, 149, 231);
+  color: rgb(85, 75, 87);
 }
 
 .me2 {
@@ -17,6 +18,19 @@
     margin-right: auto;
 
    
+}
+
+.linkedin {
+  width: 630px;
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+ 
 }
 
 .Tech {
@@ -54,7 +68,7 @@ p, h2  {
 }
 
     .welcome {
-        background-color: rgb(245, 233, 243);
+        background-color: rgb(245, 243, 244);
         height: 60%;
         display: -webkit-box;
         display: -webkit-flex;
@@ -71,7 +85,7 @@ p, h2  {
         .welcome h1 {
           font-size: 1.3rem;
           font-weight: 400;
-          color: #ebbbec;
+          color: #ada5ad;
           line-height: 0.8;
           text-align: center; }
           @media (min-width: 50em) {
@@ -80,7 +94,7 @@ p, h2  {
           .welcome h1 span {
             font-size: 4.5rem;
             letter-spacing: 0.15em;
-            color: rgb(218, 149, 231);
+            color: rgb(150, 142, 151);
             text-transform: uppercase;
             line-height: 1;
             font-family: "Six Caps", sans-serif;
@@ -94,7 +108,7 @@ p, h2  {
             display: block;
             width: 60%;
             height: 1px;
-            background: #dd90d0; }
+            background: #7c777b; }
           .welcome h1::before {
             margin: 0 auto 2em; }
           .welcome h1::after {

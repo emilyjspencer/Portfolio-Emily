@@ -7,6 +7,7 @@ import Header from './Header';
 
 
 import me2 from './images/cards/me2.png';
+import linkedin from'./images/cards/linkedin3.png';
 import './About.css';
 
 
@@ -19,7 +20,7 @@ const About = () => {
         <div className="welcome" id="home">
         <Animated animationInDuration="4000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
           <div className="container">
-           <img className="me2" src={me2} />
+           <img className="linkedin" src={linkedin} />
           </div>
           </Animated>
          <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>

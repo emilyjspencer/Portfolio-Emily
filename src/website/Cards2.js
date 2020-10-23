@@ -11,18 +11,20 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
+
+
 import './Cards2.css';
 
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 1000,
-    marginLeft: 'auto',
-    marginRight: 'auto',
+    
+   flexGrow: 1,
+   padding: theme.spacing(2),
+    marginLeft: '15px',
     color: 'gray',
-    width: '50%',
-    display: 'flex',
-    flexDirection: 'column'
+    width: '40%',
+    display: 'inline-block'
     
   },
   media: {
@@ -126,6 +128,9 @@ export default function CardProject() {
 
   return (
     <>
+    
+  
+    
     <Card className={classes.root}>
       <CardHeader
         title="Alohomora 2.0"
@@ -236,7 +241,7 @@ export default function CardProject() {
       />
       <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat2.jpg")}
+        image= { require ("./images/cards/mockup.png")}
         title="placeholder"
       />
       <CardContent>
@@ -271,7 +276,7 @@ export default function CardProject() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat.jpg")}
+        image= { require ("./images/cards/mockup.png")}
         title="cat"
       />
         </CardContent>
@@ -392,7 +397,7 @@ export default function CardProject() {
       />
       <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg")}
+        image= { require ("./images/cards/mockup.png")}
         title="cat4"
       />
       <CardContent>
@@ -426,7 +431,7 @@ export default function CardProject() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg")}
+        image= { require ("./images/cards/mockup.png")}
         title="cat4"
       />
         </CardContent>
@@ -648,7 +653,7 @@ export default function CardProject() {
       />
       <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg")}
+        image= { require ("./images/cards/mockup.png")}
         title="homepage"
       />
       <CardContent>
@@ -682,7 +687,7 @@ export default function CardProject() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg" )}
+        image= { require ("./images/cards/mockup.png" )}
         title="cat4"
       />
         </CardContent>
@@ -952,7 +957,7 @@ export default function CardProject() {
       />
       <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg")}
+        image= { require ("./images/cards/mockup.png")}
         title="findamovie"
       />
     <CardContent>
@@ -986,7 +991,7 @@ export default function CardProject() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg" )}
+        image= { require ("./images/cards/mockup.png" )}
         title="findamovie"
       />
         </CardContent>
@@ -1053,7 +1058,7 @@ export default function CardProject() {
       />
       <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg")}
+        image= { require ("./images/cards/mockup.png")}
         title="veganventures"
       />
     <CardContent>
@@ -1086,12 +1091,16 @@ export default function CardProject() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/cat4.jpg" )}
+        image= { require ("./images/cards/mockup.png" )}
         title="veganventures"
       />
         </CardContent>
       </Collapse>
     </Card>
+    <br />
+    <br />
+    <br />
+    <br />
   </>
   );
  

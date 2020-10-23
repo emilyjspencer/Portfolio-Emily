@@ -19,7 +19,6 @@ const NavBar = () => {
           <Nav>
             <Nav.Link href="about">Home</Nav.Link>
             <Nav.Link href="portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="cv">CV</Nav.Link>
             <Nav.Link href="interests">Interests</Nav.Link>
             <Nav.Link href="contact">Contact</Nav.Link>
           </Nav>

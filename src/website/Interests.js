@@ -28,7 +28,7 @@ const Interests = () => {
     return (
 
         <>
-      <Header />
+   
        <br />
         <br />
         <br />
@@ -100,7 +100,7 @@ const Interests = () => {
             <li><strong>Big Magic </strong>- Elizabeth Gilbert</li>
             <li><strong>The Seven Habits Of Highly Effective People</strong> - Stephen Covey</li>
             <li><strong>Mindset </strong>- Carol Dweck</li>
-            <li><strong>A Monk's Guide To Happines</strong> - Gelong Thubten</li>  
+            <li><strong>A Monk's Guide To Happiness</strong> - Gelong Thubten</li>  
         </ul>
         <br />
         <p><strong>Young adult fiction</strong></p>

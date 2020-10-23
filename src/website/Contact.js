@@ -2,7 +2,7 @@ import React from 'react';
 
 import Form from './Form';
 import { Animated } from "react-animated-css";
-import Animation3 from './Animation3';
+
 import Header from './Header';
 import './Form.css';
 
@@ -16,7 +16,7 @@ const Contact = () => {
   <Header />
   <div className="contact" id="contact">
       <h1>Contact me</h1>
-      <Animation3 />
+   
       <Form />
       <form action="">
         <label className="name" class="name">Name:

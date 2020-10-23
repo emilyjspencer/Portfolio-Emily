@@ -85,7 +85,7 @@ const Tech = () =>  (
    
     <div className="technologiesContainer">
         <img className="sinatra" src={sinatra} />
-      <p>Sinatra</p>
+      <p className="sinatratext">Sinatra</p>
     </div>
     </div>
     <div className="technologies3">
@@ -107,12 +107,12 @@ const Tech = () =>  (
 
     <div className="technologiesContainer">
         <img className="postgres" src={postgres} />
-        <p>PostgreSQL</p>
+        <p className="postgrestext">PostgreSQL</p>
      
     </div>
     <div className="technologiesContainer">
         <img className="tdd" src={tdd} />
-        <p>TDD</p>
+        <p className="tddtext">TDD</p>
      
     </div>
     </div>

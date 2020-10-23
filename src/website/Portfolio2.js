@@ -17,7 +17,7 @@ const Portfolio2 = () => {
             <br />
             <br />
             <br />
-            <p className="work">Take a look at some of my work</p>
+            <p className="work">Portfolio</p>
             <br/> 
             <br />
             <CardProject />

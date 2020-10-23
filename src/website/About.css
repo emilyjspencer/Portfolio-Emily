@@ -104,15 +104,9 @@ p, h2  {
               .welcome h1 span {
                 font-size: 10vw; } }
           .welcome h1::before, .welcome h1::after {
-            content: '';
-            display: block;
-            width: 60%;
-            height: 1px;
+           
             background: #7c777b; }
-          .welcome h1::before {
-            margin: 0 auto 2em; }
-          .welcome h1::after {
-            margin: 2em auto 0; }
+         
 
 
           

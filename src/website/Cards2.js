@@ -130,7 +130,7 @@ export default function CardProject() {
     <>
     
   
-    
+    <div className="body">
     <Card className={classes.root}>
       <CardHeader
         title="Alohomora 2.0"
@@ -1101,6 +1101,7 @@ export default function CardProject() {
     <br />
     <br />
     <br />
+    </div>
   </>
   );
  

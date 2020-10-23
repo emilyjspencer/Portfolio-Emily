@@ -1,5 +1,5 @@
 .body {
-    background-color: rgb(189, 181, 181);
+    background-color: rgb(192, 189, 189);
     width: 100%;
 }
 
@@ -20,17 +20,54 @@
    
 }
 
-.linkedin {
-  width: 630px;
-  height: 650px;
+.container {
+  padding: 20px;
+  width: 100%;
+  display: flex; 
+}
+
+.text {
+  float: right;
+  width: 60%;
+  position: relative;
+  bottom: 300px;
+  right: 80px;
+  height: 70px;
+}
+
+p {
+  text-align: center;
+}
+
+.info {
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.me3 {
+  width: 450px;
+  height: 450px;
   display: flex;
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-
-
-
+  border-radius: 50%;
+  padding: 10px;
+  position: relative;
+  bottom: 30px;
+  right: 40px;
  
+}
+
+.technologies {
+  background-color: rgb(223, 222, 222);
+  width: 100%;
+}
+
+#techstack {
+  font-size: 40px;
+  text-align: center;
 }
 
 .Tech {
@@ -42,12 +79,12 @@ p, h2  {
   color: rgb(63, 59, 63);
 }
 
-.container {
+.container-all {
   display: flex;
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 .cherry {
@@ -68,7 +105,7 @@ p, h2  {
 }
 
     .welcome {
-        background-color: rgb(245, 243, 244);
+        background-color: #e4d1d1;
         height: 60%;
         display: -webkit-box;
         display: -webkit-flex;
@@ -82,16 +119,16 @@ p, h2  {
         -ms-flex-pack: center;
         justify-content: center;
         position: relative; }
-        .welcome h1 {
+        .welcome h2 {
           font-size: 1.3rem;
           font-weight: 400;
-          color: #ada5ad;
-          line-height: 0.8;
+          color: #a8a3a8;
+          line-height: 1.8;
           text-align: center; }
           @media (min-width: 50em) {
-            .welcome h1 {
+            .welcome h2 {
               font-size: 3vw; } }
-          .welcome h1 span {
+          .welcome h2 span {
             font-size: 4.5rem;
             letter-spacing: 0.15em;
             color: rgb(150, 142, 151);
@@ -101,9 +138,9 @@ p, h2  {
             font-weight: 400;
             display: block; }
             @media (min-width: 50em) {
-              .welcome h1 span {
+              .welcome h3 span {
                 font-size: 10vw; } }
-          .welcome h1::before, .welcome h1::after {
+          .welcome h3::before, .welcome h2::after {
            
             background: #7c777b; }
          

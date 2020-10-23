@@ -8,6 +8,7 @@ import { Animated } from "react-animated-css";
 import './Header2.css';
 import './Interests.css';
 import camera from './images/cards/camera.png';
+import snappy from './images/cards/snappy.jpg';
 import danceexam from './images/cards/danceexam.png';
 import deer from './images/cards/lake.jpg';
 import node from './images/cards/nodegirlslondon.png';
@@ -19,6 +20,8 @@ import twitter from './images/cards/twitter.png';
 import google from './images/cards/google.png';
 import railsgirls from './images/cards/railsgirls.png';
 import athena from './images/cards/athena.png';
+import ballet from './images/cards/ballet.png';
+import spines from './images/cards/spines4.png';
 
 
 
@@ -32,6 +35,7 @@ const Interests = () => {
        <br />
         <br />
         <br />
+        <div className="body">
         <h4>The Performing Arts</h4>
        
         <p>Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
@@ -42,14 +46,13 @@ const Interests = () => {
         </p> 
         <div className="theatre">
             <div className="performingarts" >
-            <img className="dance" src={danceexam} alt="an early dance exam" />
+            <img className="dance" src={ballet} alt="an early dance exam" />
             <br />
             <img className="piano" src={piano} alt="piano" />
             <br />
             <img className="physical" src={physical} alt="physicaltheatre" />
             </div>
             </div>
-            <hr></hr>
             <h3>Books</h3>
             <br />
             <p>My love of reading is what led me to my previous role. While I'll read most things, I'm especially fond of autobiographies and personal development books. 
@@ -77,7 +80,6 @@ const Interests = () => {
                  <li><strong>Eat, Pray, Love </strong>- Elizabeth Gilbert</li>
                  <li><strong>The Girl From Aleppo</strong> - Nujeen Mustafa</li>
                  <li><strong>Lean In</strong> - Sheryl Sandberg</li>
-      
         </ul>
         <p><strong>Mixed non-fiction</strong></p>
         <ul>
@@ -116,7 +118,7 @@ const Interests = () => {
         </ul>
         </div>
         </div>
-        <hr></hr>
+        <br />
         <h4>Languages and travel</h4>
         <br />
         <div className="languages">
@@ -134,11 +136,11 @@ const Interests = () => {
         <div className="photos" >
         <br />
         <br />
-        <img className="snap" src={camera} />
+        <img className="snap" src={snappy} />
         <br />
         <img className="deer" src={deer} alt="deer" />
         <br />
-        <img className="snap" src={camera} />
+        <img className="snap" src={snappy} />
       
         </div>
         <div>
@@ -174,7 +176,7 @@ const Interests = () => {
         </div>
     
         
-       
+       </div>
         </>
     )
 }

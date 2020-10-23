@@ -1,13 +1,13 @@
 import React from 'react';
-import Typical from 'react-typical'
 import { Animated } from "react-animated-css";
 
 import Tech from './Tech';
 import Header from './Header';
+import Form from './Form';
 
-
+import logo from './images/cards/logo.png';
 import me2 from './images/cards/me2.png';
-import linkedin from'./images/cards/linkedin3.png';
+import me3 from './images/cards/me3.png';
 import './About.css';
 
 
@@ -16,36 +16,35 @@ const About = () => {
     <>
     <Header />
     <div className="body">
-      <div className="container-all">
         <div className="welcome" id="home">
-        <Animated animationInDuration="4000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+          <br />
           <div className="container">
-           <img className="linkedin" src={linkedin} />
-          </div>
+        <Animated animationInDuration="4000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+           <img className="me3" src={logo} />
           </Animated>
-         <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
-          <div>
-            <h1>Full Stack<span>Developer</span></h1>
+          <h2>Full Stack<span>Developer</span></h2>
           </div>
-          <br />
-          <div className="typical">
-          <Typical loop={Infinity} wrapper="b" steps={['Linguist', 1500, 'Musician', 1500, 'Book-Lover', 1500, 'Problem Solver', 1500, 'Makers Academy Graduate', 1500]}
-          />
-          </div>
-          </Animated>
-          <br />
-          <br />
-      <section class="about-me" id="about">
-     <br />
-      <div class="about-text">
-     <br />
-     <br />
+          <div className="text">
+           <p>I'm a full stack developer and graduate of both <strong>Makers Academy</strong> and the University of Sheffield's School of Languages and
+           Cultures I've spent the majority of my working life in the education sector during which time I discovered
+           the wonders of coding.</p>
+           <p>Starting out with HTML, CSS and JavaScript, I built on this learning at Makers where I gained a solid understanding of object-oriented programming principles,
+            test-driven development, front-and-backend development, agile methodologies and object-oriented design.</p>
+          <p>Consult my portfolio for examples of my work</p>  
       </div>
-    </section>
-      </div>
+      <br />
+      <br />
+      <div className="technologiestext">
+        <h2 id="techstack">Technologies I'm familiar with</h2>
+      <div className="white">
       <Tech />
-    </div>
-    </div>
+      </div>
+      </div>
+      <br />
+      <h2>Drop me a line</h2>
+      <Form />
+      </div>
+      </div>
     </>
   )
 }

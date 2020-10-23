@@ -26,14 +26,24 @@ import {
     DiPython
 } from 'react-icons/di';
 import {
+  GiJasmine 
+} from 'react-icons/gi';
+import {
   FaGem,
   FaReact,
 } from 'react-icons/fa';
+import  {
+SiJavascript,
+SiPostgresql,
+SiJest,
+SiMocha,
+SiHtml5,
+} from 'react-icons/si';
 
 
 const Tech = () =>  (
     <>
-  <div className="technologies">
+  <div className="technologiess">
     <div className="technologiesContainer">
       <FaGem className="ruby" />
       <p>
@@ -56,21 +66,21 @@ const Tech = () =>  (
         <p>Python</p>
     </div>
 
+
     <div className="technologiesContainer">
-        <img className="js" src={js} />
+        <SiJavascript className="javascript" />
         <p>JavaScript</p>
-    </div>
-    </div>
-  
-    <div className="technologies2">
-    <div className="technologiesContainer">
-      <img className="sql" src={database} />
-      <p>SQL</p>
     </div>
 
     <div className="technologiesContainer">
-      <img className="html" src={html} />
-      <p>HTML5</p>
+      <SiPostgresql />
+      <p className="postgres">PostgreSQL</p>
+    </div>
+    </div>
+    
+
+    <div className="technologiesContainer">
+      <SiHtml5 className="html"/>
     </div>
 
     <div className="technologiesContainer">
@@ -86,8 +96,7 @@ const Tech = () =>  (
     <div className="technologiesContainer">
         <img className="sinatra" src={sinatra} />
       <p className="sinatratext">Sinatra</p>
-    </div>
-    </div>
+ 
     <div className="technologies3">
 
     <div className="technologiesContainer">
@@ -96,8 +105,7 @@ const Tech = () =>  (
     </div>
 
     <div className="technologiesContainer">
-        <img className="jasmine2" src={jasmine} />
-        <p>Jasmine</p>
+        <GiJasmine className="jasmine2" />
     </div>
 
     <div className="technologiesContainer">
@@ -105,11 +113,9 @@ const Tech = () =>  (
         <p>RSpec</p>
     </div>
 
-    <div className="technologiesContainer">
-        <img className="postgres" src={postgres} />
-        <p className="postgrestext">PostgreSQL</p>
-     
-    </div>
+
+   
+
     <div className="technologiesContainer">
         <img className="tdd" src={tdd} />
         <p className="tddtext">TDD</p>
@@ -122,14 +128,13 @@ const Tech = () =>  (
         <p>Chai</p> 
     </div>
 
+
     <div className="technologiesContainer">
-        <img className="mocha" src={mocha} />
-        <p className="mochatext">Mocha</p>
+        <SiMocha className="mocha"/>
     </div>
 
     <div className="technologiesContainer">
-        <img className="jest" src={jest} />
-        <p className="jesttext">Jest</p> 
+        <SiJest className="jest"/> 
     </div>
 
     <div className="technologiesContainer">
@@ -141,10 +146,11 @@ const Tech = () =>  (
         <img className="capybara2" src={capybara} />
         <p className="capybaratext">Capybara</p>
     </div>
-    </div>
  
+ 
+  </div>
   
-  
+  </div>
   </>
 )
 

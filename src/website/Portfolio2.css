@@ -2,12 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 .pink {
-    background-color: rgb(10, 9, 9);
+    background-color: rgb(119, 114, 114);
+}
+
+.body {
+    background-color: gray;
+    
 }
 
 .work {
     font-family: Sacramento;
     text-align: center;
     font-size: 50px;
+ 
 }
 

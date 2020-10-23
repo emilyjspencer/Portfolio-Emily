@@ -8,3 +8,7 @@ a:link {
     background-color: transparent;
     text-decoration: none;
   }
+
+.body {
+  background-color: gray;
+}

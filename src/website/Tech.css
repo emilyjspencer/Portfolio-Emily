@@ -1,15 +1,21 @@
 .rails {
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .jasmine2 {
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.mongodb {
+    height: 45px;
+    width: 45px;
 }
 
 .capybara2 {
@@ -30,22 +36,22 @@
 
 
 .jest {
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .mocha {
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .chai {
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -53,86 +59,60 @@
 .rspec {
         height: 55px;
         width: 55px;
-        margin-left: auto;
-        margin-right: auto;
+      
 
 }
 
 .python {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 45px;
+    width: 45px;
+
 }
 
 .ruby {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 45px;
+    width: 45px;
+
 }
 
 .react {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 45px;
+    width: 45px;
+  
 }
 
 .node2 {
-    height: 55px;
-    width: 75px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 65px;
+    width: 65px;
+  
 }
 
-.sql {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .html {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 45px;
+    width: 45px;
 }
 
 .css {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 45px;
+    width: 45px;
 }
 
 .materialui {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 45px;
+    width: 45px;
 }
 
-.database {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .javascript {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
+    height: 45px;
+    width: 45px;
 }
 
 
 .sinatra {
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -151,12 +131,9 @@
 
 
 .postgres {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    right: 10px;
+    height: 45px;
+    width: 45px;
+   
 }
 
 .postgrestext {
@@ -164,20 +141,11 @@
     right: 10px;
 }
 
-.chai {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .mocha {
     height: 55px;
     width: 55px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    left: 20px;
 }
 
 .mochatext {
@@ -186,12 +154,9 @@
 }
 
 .jest {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    left: 20px;
+    height: 45px;
+    width: 45px;
+   
 }
 
 .jesttext {
@@ -209,45 +174,33 @@
     bottom: 10px;
 }
 
-.enzymetext {
-    position: relative;
-    left: 40px;
-    bottom: 30px;
-}
 
 .tdd {
-    height: 55px;
-    width: 55px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    right: 40px;
+    height: 45px;
+    width: 45px;
+   
 }
 
-.technologiess {
+.technologies1 {
     display: flex;
     flex-direction: row;
-    padding: 80px;
+    width: 50%;
   
 }
 
 .technologies2 {
     display: flex;
     flex-direction: row;
-    padding: 80px;
+    width: 50%;
   
 }
 
 .technologies3 {
     display: flex;
     flex-direction: row;
-    padding: 80px;
+    width: 50%;
   
 }
 
-.technologies4 {
-    display: flex;
-    flex-direction: row;
-    padding: 80px;
-  
-}
+
+

@@ -26,16 +26,20 @@ import {
     DiPython
 } from 'react-icons/di';
 import {
-  GiJasmine 
+  GiJasmine,
+  GiRecycle
 } from 'react-icons/gi';
 import {
   FaGem,
   FaReact,
+  FaNode,
 } from 'react-icons/fa';
 import  {
 SiJavascript,
 SiPostgresql,
 SiJest,
+SiMaterialUi,
+SiMongodb,
 SiMocha,
 SiHtml5,
 } from 'react-icons/si';
@@ -43,14 +47,11 @@ SiHtml5,
 
 const Tech = () =>  (
     <>
-  <div className="technologiess">
+  <div className="technologies1">
     <div className="technologiesContainer">
       <FaGem className="ruby" />
-      <p>
-        Ruby
-      </p>
+      <p>Ruby</p>
     </div>
-
     <div className="technologiesContainer">
         <img className="rails" src={rails} />
       <p>Rails</p>
@@ -71,16 +72,22 @@ const Tech = () =>  (
         <SiJavascript className="javascript" />
         <p>JavaScript</p>
     </div>
+    </div>
+   
+   <div className="technologies2">
+    <div className="technologiesContainer">
+      <SiPostgresql className="postgres"/>
+      <p>PostgreSQL</p>
+    </div>
 
     <div className="technologiesContainer">
-      <SiPostgresql />
-      <p className="postgres">PostgreSQL</p>
+      <SiMongodb className="mongodb" />
+      <p>MongoDB</p>
     </div>
-    </div>
-    
 
     <div className="technologiesContainer">
       <SiHtml5 className="html"/>
+      <p>HTML5</p>
     </div>
 
     <div className="technologiesContainer">
@@ -89,69 +96,50 @@ const Tech = () =>  (
     </div>
 
     <div className="technologiesContainer">
-      <img className="materialui"  src={materialui} />
-      <p>MaterialUI</p>
-    </div>
-   
-    <div className="technologiesContainer">
-        <img className="sinatra" src={sinatra} />
-      <p className="sinatratext">Sinatra</p>
- 
-    <div className="technologies3">
-
-    <div className="technologiesContainer">
-        <img className="node2" src={node} />
-        <p>Node</p>
-    </div>
-
-    <div className="technologiesContainer">
-        <GiJasmine className="jasmine2" />
-    </div>
-
-    <div className="technologiesContainer">
-    <img className="rspec" src={rspec} />
-        <p>RSpec</p>
-    </div>
-
-
-   
-
-    <div className="technologiesContainer">
-        <img className="tdd" src={tdd} />
-        <p className="tddtext">TDD</p>
+      <SiMaterialUi className="materialui"  />
+      <p>MaterialUi</p>
      
     </div>
     </div>
-    <div className="technologies4">
+    <br />
+    <br />
+    <div className="technologies3">
+   
+
     <div className="technologiesContainer">
-        <img className="chai" src={chai} />
-        <p>Chai</p> 
+        <GiJasmine className="jasmine2" />
+        <p>Jasmine</p>
     </div>
 
+    <div className="technologiesContainer">
+        <FaNode className="node2" />
+    </div>
 
     <div className="technologiesContainer">
+        <GiRecycle className="tdd" />
+         <p>TDD</p>  
+    </div>
+  
+    <div className="technologiesContainer">
         <SiMocha className="mocha"/>
+        <p>Mocha</p>
     </div>
 
     <div className="technologiesContainer">
         <SiJest className="jest"/> 
+        <p>Jest</p>
     </div>
+   <div>
+     <br />
+     <br />
+     <div className="technologies4">
+  <p>Capybara. Enzyme. Chai. Sinatra. RSpec. Express</p>
+  </div>
+ 
+</div>
+</div>
 
-    <div className="technologiesContainer">
-        <img className="enzyme2" src={enzyme} />
-        <p className="enzymetext">Enzyme</p>
-    </div>
-    <br />
-    <div className="technologiesContainer">
-        <img className="capybara2" src={capybara} />
-        <p className="capybaratext">Capybara</p>
-    </div>
- 
- 
-  </div>
-  
-  </div>
-  </>
+</>
 )
 
 export default Tech;

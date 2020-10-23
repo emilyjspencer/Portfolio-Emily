@@ -13,15 +13,16 @@ import danceexam from './images/cards/danceexam.png';
 import deer from './images/cards/lake.jpg';
 import node from './images/cards/nodegirlslondon.png';
 import java from './images/cards/java.png';
-import piano from './images/cards/piano.png';
+import piano from './images/cards/pianocircle.png';
 import hollybourne from './images/cards/hollybourne.png';
-import physical from './images/cards/physical.png';
+import physical from './images/cards/physicalcircle.png';
 import twitter from './images/cards/twitter.png';
 import google from './images/cards/google.png';
 import railsgirls from './images/cards/railsgirls.png';
 import athena from './images/cards/athena.png';
-import ballet from './images/cards/ballet.png';
+import ballet from './images/cards/dancecircle.png';
 import spines from './images/cards/spines4.png';
+import arts from './images/cards/arts.png';
 
 
 
@@ -31,39 +32,58 @@ const Interests = () => {
     return (
 
         <>
-   
+
        <br />
         <br />
         <br />
         <div className="body">
-        <h4>The Performing Arts</h4>
-       
-        <p>Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
-            a passion for the performing arts.
-            I spent many an hour honing my piano skills, competing in competitions, performing at concerts, including local 
-            Young Musician concerts, ABRSM High Scorers Concerts, as well as those organised by my piano teacher. I also performed
-            in various dance shows, musicals and took examinations in all of the aforementioned areas.
-        </p> 
-        <div className="theatre">
-            <div className="performingarts" >
-            <img className="dance" src={ballet} alt="an early dance exam" />
-            <br />
-            <img className="piano" src={piano} alt="piano" />
-            <br />
+          <div className="performingarts" >
+              <div className="performingtext">
+          <h4>The Performing Arts</h4>
+          <div className="performingimages">
             <img className="physical" src={physical} alt="physicaltheatre" />
+            <img className="dance" src={ballet} alt="an early dance exam" />
+            <img className="piano" src={piano} alt="piano" />
+    
             </div>
+           <p>Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
+            and will always have a deep appreciation for all aspects of the performing arts. 
+            Taking examinations in these areas on a yearly basis meant that I spent many an hour honing these skills,
+            competing in competitions, performing at concerts, including local 
+            Young Musician concerts, ABRSM High Scorers Concerts, and other concerts.
+            I've also performed in various dance shows and musicals, including a performance at the St John Smith's Stadium 
+            in Huddersfield.
+            </p>
+          
             </div>
-            <h3>Books</h3>
+            
+    
+            </div>
+            <hr></hr>
+            <div className="bookscontainer">
+              <h3 align="center">Books</h3>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <div className="bookshelf">
+              <img src={spines} className="spines" />
+              <img src={spines} className="spines" />
+              <img src={spines} className="spines" />
+              </div>
             <br />
+            <div className="reading">
             <p>My love of reading is what led me to my previous role. While I'll read most things, I'm especially fond of autobiographies and personal development books. 
              I have also read a lot of young adult fiction and will always have a soft spot for children's books</p>
              <br />
              <h3 align="center">My Picks</h3>
-        <div className="bookscontainer">
+        
        <br />
        <br />
        <br />
-        <img className="hollybourne" src={hollybourne} alt="hollybourne" />
+     
         <div className="books">
             <br />
             <br />
@@ -118,7 +138,9 @@ const Interests = () => {
         </ul>
         </div>
         </div>
+        </div>
         <br />
+        <div className="lang">
         <h4>Languages and travel</h4>
         <br />
         <div className="languages">
@@ -129,6 +151,7 @@ const Interests = () => {
         <div className="pink3" >
 
         <CarouselTravel />
+        </div>
         </div>
         </div>
         <hr></hr>
@@ -161,6 +184,7 @@ const Interests = () => {
         <br />
         <img className="java" src={java} alt="codebarandroiddevelopment" />
         <img className="twitter" src={twitter} alt="twitter" />
+        <br />
         </div>
         <div className="tech2">
         <img className="google" src={google} alt="googlecodebar" />

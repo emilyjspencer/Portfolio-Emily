@@ -26,7 +26,8 @@ const About = () => {
           </div>
           <div className="text">
            <p>I'm a full stack developer and graduate of both <strong>Makers Academy</strong> and the University of Sheffield's School of Languages and
-           Cultures I've spent the majority of my working life in the education sector during which time I discovered
+           Cultures.</p>
+           <p>I've spent the majority of my working life in the education sector during which time I discovered
            the wonders of coding.</p>
            <p>Starting out with HTML, CSS and JavaScript, I built on this learning at Makers where I gained a solid understanding of object-oriented programming principles,
             test-driven development, front-and-backend development, agile methodologies and object-oriented design.</p>
@@ -35,7 +36,9 @@ const About = () => {
       <br />
       <br />
       <div className="technologiestext">
-        <h2 id="techstack">Technologies I'm familiar with</h2>
+        <h2 id="techstack">Technologies with which I'm familiar</h2>
+        <br />
+        <br />
       <div className="white">
       <Tech />
       </div>

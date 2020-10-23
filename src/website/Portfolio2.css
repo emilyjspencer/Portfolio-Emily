@@ -6,7 +6,7 @@
 }
 
 .body {
-    background-color: gray;
+    background-color: rgb(172, 164, 164);
     
 }
 
@@ -14,6 +14,7 @@
     font-family: Sacramento;
     text-align: center;
     font-size: 50px;
+   
  
 }
 

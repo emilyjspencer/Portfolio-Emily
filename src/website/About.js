@@ -26,8 +26,8 @@ const About = () => {
           <h2>Full Stack<span>Developer</span></h2>
           </div>
           <div className="text">
-           <p>I'm a full stack developer and graduate of both <strong>Makers Academy</strong> and the University of Sheffield's School of Languages and
-           Cultures.</p>
+           <p>I'm a full stack developer and graduate of both <strong>Makers Academy</strong> and the <strong>University of Sheffield's School of Languages and
+           Cultures.</strong></p>
            <p>I've spent the majority of my working life in the education sector during which time I discovered
            the wonders of coding.</p>
            <p>Starting out with HTML, CSS and JavaScript, I built on this learning at Makers where I gained a solid understanding of object-oriented programming principles,

@@ -7,6 +7,8 @@ import { Animated } from "react-animated-css";
 
 import './Header2.css';
 import './Interests.css';
+import memoirs from './images/cards/memoirs.png';
+import memoirs2 from './images/cards/memoirs2.png';
 import camera from './images/cards/camera.png';
 import snappy from './images/cards/snappy.jpg';
 import danceexam from './images/cards/danceexam.png';
@@ -21,7 +23,7 @@ import google from './images/cards/google.png';
 import railsgirls from './images/cards/railsgirls.png';
 import athena from './images/cards/athena.png';
 import ballet from './images/cards/dancecircle.png';
-import spines from './images/cards/spines4.png';
+import spines from './images/cards/spines6.png';
 import arts from './images/cards/arts.png';
 
 
@@ -63,31 +65,22 @@ const Interests = () => {
             <div className="bookscontainer">
               <h3 align="center">Books</h3>
               <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
               <div className="bookshelf">
-              <img src={spines} className="spines" />
-              <img src={spines} className="spines" />
-              <img src={spines} className="spines" />
+              <img src={spines} className="spines" /><img src={spines} className="spines" /><img src={spines} className="spines" /><img src={spines} className="spines" />
               </div>
             <br />
             <div className="reading">
-            <p>My love of reading is what led me to my previous role. While I'll read most things, I'm especially fond of autobiographies and personal development books. 
+            <p>My love of reading led me to my previous role. While I'll read most things, I'm especially fond of autobiographies and personal development books. 
              I have also read a lot of young adult fiction and will always have a soft spot for children's books</p>
              <br />
              <h3 align="center">My Picks</h3>
-        
-       <br />
-       <br />
-       <br />
      
         <div className="books">
             <br />
             <br />
+            <div className="memoirs">
         <p><strong>Autobiographies and memoirs</strong></p>
+      
         <ul>
             <li><strong>My Life So Far</strong> - Jane Fonda</li>
             <li><strong>When Breath Becomes Air</strong>- Paul Kalanithi</li>
@@ -101,6 +94,8 @@ const Interests = () => {
                  <li><strong>The Girl From Aleppo</strong> - Nujeen Mustafa</li>
                  <li><strong>Lean In</strong> - Sheryl Sandberg</li>
         </ul>
+        </div>
+        <div className="mixed">
         <p><strong>Mixed non-fiction</strong></p>
         <ul>
             <li><strong>Year of Wonder</strong> - Clemency Burton-Hill</li>
@@ -110,11 +105,13 @@ const Interests = () => {
             <li><strong>Spark!</strong> - Dr John R Ratey</li>
             <li><strong>Parisian Intersections</strong>- Dr Helen Abbott</li>
         </ul>
+        </div>
         <br />
         </div>
         <div className="books2">
             <br />
             <br />
+            <div className="personal">
         <p><strong>Personal development</strong></p>
         <ul>
             <li><strong>Presence </strong>- Amy Cuddy</li>
@@ -124,7 +121,9 @@ const Interests = () => {
             <li><strong>Mindset </strong>- Carol Dweck</li>
             <li><strong>A Monk's Guide To Happiness</strong> - Gelong Thubten</li>  
         </ul>
+        </div>
         <br />
+        <div className="ya">
         <p><strong>Young adult fiction</strong></p>
         <ul>
             <li><strong>Turtles All The Way Down</strong> - John Green</li>
@@ -132,6 +131,8 @@ const Interests = () => {
             <li><strong>Lies We Tell Ourselves </strong>- Robin Talley</li>
             <li><strong>Holding Up The Universe</strong> - Jennifer Niven</li>
             </ul>
+            </div>
+            <div className="children">
         <p><strong>Children's Books</strong></p>
         <ul>
             <li><strong>The Enchanted Wood & The Magic Faraway Tree</strong> - Enid Blyton</li>
@@ -139,7 +140,27 @@ const Interests = () => {
         </div>
         </div>
         </div>
+        </div>
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
         <div className="lang">
         <h4>Languages and travel</h4>
         <br />
@@ -155,31 +176,61 @@ const Interests = () => {
         </div>
         </div>
         <hr></hr>
+
+
+        <div className="photos">
         <h4 align="center">Photography</h4>
-        <div className="photos" >
         <br />
         <br />
-        <img className="snap" src={snappy} />
+        <br />
+        <br />
         <br />
         <img className="deer" src={deer} alt="deer" />
         <br />
-        <img className="snap" src={snappy} />
-      
-        </div>
-        <div>
-        <a href="https://www.flickr.com/photos/51541259@N03/">See my very amateur shots on my Flicker account</a>
-       <br />
-       <br />
-       <br />
-        </div>
         <br />
         <br />
+        <br />
+        <br />
+       
+        <div className="photostext">
+        
+       <br />
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus, tellus quis elementum imperdiet, nisi enim pellentesque elit, 
+           sit amet maximus tellus est nec lorem. Cras velit mi, fermentum eu rhoncus sit amet, posuere vel justo. Nulla congue mi et euismod viverra.
+            Aenean vitae nunc pulvinar, consectetur turpis pretium, imperdiet arcu. Aenean eget neque ipsum. Curabitur id urna ligula. Nulla vel cursus neque,
+             quis sollicitudin lorem. Nullam rutrum condimentum tincidunt. Sed dapibus fermentum diam, a pretium ex vehicula a. Curabitur consectetur metus purus.
+
+Sed interdum magna ac convallis mattis. Cras malesuada luctus quam, ut sagittis lacus euismod nec. Mauris tincidunt in elit in sollicitudin. Nullam in lacinia nisi, i
+n fermentum purus. Maecenas mattis dignissim sapien ut lobortis. Mauris at feugiat ante, ac viverra ex. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+ Duis porta turpis nec imperdiet ornare. Duis eget molestie ligula. Integer posuere dictum diam id finibus. Nullam sagittis sollicitudin dui, ac malesuada augue pharetra sit amet. 
+ Fusce ornare purus magna, id porta est elementum mattis. Ut blandit mi justo, at ullamcorper magna elementum ut. Suspendisse sit amet nibh sed libero pulvinar luctus ac a ante. Mauris imperdiet ac metus iaculis venenatis.
+</p>
+</div>
+       <br />
+       <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+       <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        </div>
+        <br />
+       <div>
+    
+       
+        </div>
         <hr/>
+        <div className="techie">
         <h4>Tech</h4>
         <br />
         <p>I try to attend tech meetups when I can</p>
         <p>Below are a few I've been to.</p>
-        <div className="tech">
+       
         <img className="node" src={node} alt="nodegirlslondon" />
         <br />
         <img className="java" src={java} alt="codebarandroiddevelopment" />
@@ -191,6 +242,7 @@ const Interests = () => {
         <img className="athena" src={athena} alt="athenahack" />
         <img className="railsgirls" src={railsgirls} alt="railsgirlslondon" />
         </div>
+       
         <hr></hr>
        
         <h4>Film</h4>

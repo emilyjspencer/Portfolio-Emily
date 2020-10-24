@@ -53,7 +53,7 @@ const Interests = () => {
             Taking examinations in these areas on a yearly basis meant that I spent many an hour honing these skills,
             competing in competitions, performing at concerts, including local 
             Young Musician concerts, ABRSM High Scorers Concerts, and other concerts.
-            I've also performed in various dance shows and musicals, including a performance at the St John Smith's Stadium 
+            I've also performed in various dance shows and musicals, including a performance at the John Smith's Stadium 
             in Huddersfield.
             </p>
           
@@ -82,28 +82,28 @@ const Interests = () => {
         <p><strong>Autobiographies and memoirs</strong></p>
       
         <ul>
-            <li><strong>My Life So Far</strong> - Jane Fonda</li>
+            <li><strong>My Life So Far</strong> - <a href="https://www.janefonda.com/">Jane Fonda</a></li>
             <li><strong>When Breath Becomes Air</strong>- Paul Kalanithi</li>
                 <li><strong>A Lotus Grows In The Mud</strong> - Goldie Hawn</li>
                 <li><strong>Long Walk To Freedom </strong>- Nelson Mandela</li>
                  <li><strong>Home</strong>- Julie Andrews</li>   
-                 <li><strong>How To Be A Woman</strong> - Caitlin Moran</li>
-                 <li><strong>Out Of Africa</strong> - Karen Blixen</li>
-                 <li><strong>Hope In A Ballet Shoe</strong> - Michaela DePrince</li>
-                 <li><strong>Eat, Pray, Love </strong>- Elizabeth Gilbert</li>
+                 <li><strong>How To Be A Woman</strong> - <a href="https://www.caitlinmoran.co.uk/">Caitlin Moran</a></li>
+                 <li><strong>Out Of Africa</strong> - <a href="http://www.karenblixen.com/">Karen Blixen</a></li>
+                 <li><strong>Hope In A Ballet Shoe</strong> - <a href="http://www.michaeladeprince.com/about-1">Michaela DePrince</a></li>
+                 <li><strong>Eat, Pray, Love </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>
                  <li><strong>The Girl From Aleppo</strong> - Nujeen Mustafa</li>
-                 <li><strong>Lean In</strong> - Sheryl Sandberg</li>
+                 <li><strong>Lean In</strong> - <a href="https://www.instagram.com/sherylsandberg/?hl=en">Sheryl Sandberg</a></li>
         </ul>
         </div>
         <div className="mixed">
         <p><strong>Mixed non-fiction</strong></p>
         <ul>
             <li><strong>Year of Wonder</strong> - Clemency Burton-Hill</li>
-            <li><strong>Art Nouveau </strong>- Camilla de la Bédoyère</li>
-            <li><strong>The Art of Acting </strong>- Stella Adler</li>
-            <li><strong>Annie Leibovitz At Work</strong> - Annie Leibovitz</li>
+            <li><strong>Art Nouveau </strong>- <a href="http://camilladelabedoyere.co.uk/">Camilla de la Bédoyère</a></li>
+            <li><strong>The Art of Acting </strong>- <a href="https://stellaadler.com/">Stella Adler</a></li>
+            <li><strong>Annie Leibovitz At Work</strong> - <a href="https://www.instagram.com/annieleibovitz/?hl=en">Annie Leibovitz</a></li>
             <li><strong>Spark!</strong> - Dr John R Ratey</li>
-            <li><strong>Parisian Intersections</strong>- Dr Helen Abbott</li>
+            <li><strong>Parisian Intersections</strong>- <a href="https://www.birmingham.ac.uk/staff/profiles/languages/abbott-helen.aspx">Dr Helen Abbott</a></li>
         </ul>
         </div>
         <br />
@@ -114,28 +114,28 @@ const Interests = () => {
             <div className="personal">
         <p><strong>Personal development</strong></p>
         <ul>
-            <li><strong>Presence </strong>- Amy Cuddy</li>
-            <li><strong>#Girlboss</strong> - Sophia Amoruso</li>
-            <li><strong>Big Magic </strong>- Elizabeth Gilbert</li>
+            <li><strong>Presence </strong>- <a href="https://www.amycuddy.com/">Amy Cuddy</a></li>
+            <li><strong>#Girlboss</strong> - <a href="https://www.sophiaamoruso.com/">Sophia Amoruso</a></li>
+            <li><strong>Big Magic </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>
             <li><strong>The Seven Habits Of Highly Effective People</strong> - Stephen Covey</li>
-            <li><strong>Mindset </strong>- Carol Dweck</li>
-            <li><strong>A Monk's Guide To Happiness</strong> - Gelong Thubten</li>  
+            <li><strong>Mindset </strong>- <a href="https://profiles.stanford.edu/carol-dweck">Carol Dweck</a></li>
+            <li><strong>A Monk's Guide To Happiness</strong> - <a href="https://www.gelongthubten.com/">Gelong Thubten</a></li>  
         </ul>
         </div>
         <br />
         <div className="ya">
         <p><strong>Young adult fiction</strong></p>
         <ul>
-            <li><strong>Turtles All The Way Down</strong> - John Green</li>
+            <li><strong>Turtles All The Way Down</strong> - <a href="https://www.johngreenbooks.com/">John Green</a></li>
             <li><strong>Boy 87 </strong>- Ele Fountain</li>
-            <li><strong>Lies We Tell Ourselves </strong>- Robin Talley</li>
+            <li><strong>Lies We Tell Ourselves </strong>- <a href="https://robintalley.com/">Robin Talley</a></li>
             <li><strong>Holding Up The Universe</strong> - Jennifer Niven</li>
             </ul>
             </div>
             <div className="children">
         <p><strong>Children's Books</strong></p>
         <ul>
-            <li><strong>The Enchanted Wood & The Magic Faraway Tree</strong> - Enid Blyton</li>
+            <li><strong>The Enchanted Wood & The Magic Faraway Tree</strong> - <a href="https://www.enidblytonsociety.co.uk/">Enid Blyton</a></li>
         </ul>
         </div>
         </div>

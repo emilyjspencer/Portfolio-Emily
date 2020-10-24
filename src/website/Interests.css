@@ -221,6 +221,17 @@ h3 {
 
 }
 
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
 .athena {
     width: 400px;
     height: 400px;

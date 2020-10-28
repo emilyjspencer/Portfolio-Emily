@@ -55,9 +55,11 @@
     background-color: #e4d1d1;
 }
 .memoirs {
-    background-color: rgb(207, 199, 199);
+    background-color:  rgb(207, 203, 207);
     margin-right: 150px;;
     width: 420px;
+    height: 410px;
+    border-radius: 50%;
   
 }
 
@@ -70,28 +72,41 @@
 }
 
 .personal {
-    background-color: rgb(207, 199, 199);
+    background-color: rgb(207, 203, 207);
     margin-left: 150px;
     margin-top: -47px;
     width: 420px;
+    height: 410px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .ya {
-    background-color: rgb(207, 199, 199);
+    background-color:  rgb(207, 203, 207);
     margin-left: 150px;
     width: 420px;
+    border-radius: 50%;
+    height: 410px;
 }
 
 .children {
-    background-color: rgb(207, 199, 199);
+    background-color:  rgb(207, 203, 207);
     margin-left: 150px;
     width: 420px;
 }
 
 .mixed {
-    background-color: rgb(197, 191, 191);
+    background-color: rgb(207, 203, 207);
     margin-right: 150px;
     width: 420px;
+    height: 410px;
+    border-radius: 50%;
+}
+
+.pinkstrip {
+    background-color: #e4d1d1;
+    height: 100px;
+    width: 100%;
 }
 
 .spines {
@@ -99,9 +114,20 @@
     height: 200px;
 }
 
+.spines2 {
+    width: 500px;
+    height: 200px;
+}
+
 .bookshelf {
     display: flex;
     flex-direction: row;
+    width: 20px;
+}
+
+.photoscontainer {
+  display: block;
+  flex-direction: column;
 }
 
 h3 {
@@ -215,14 +241,17 @@ li {
 
 }
 
-.photos {
-    display: flex;
-    flex-direction: column;
-}
 
 .photostext {
     display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.photostitle {
+    display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .node {

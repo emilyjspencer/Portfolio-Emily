@@ -24,6 +24,7 @@ import railsgirls from './images/cards/railsgirls.png';
 import athena from './images/cards/athena.png';
 import ballet from './images/cards/dancecircle.png';
 import spines from './images/cards/spines6.png';
+import spines2 from './images/cards/spines7.png';
 import arts from './images/cards/arts.png';
 
 
@@ -57,18 +58,19 @@ const Interests = () => {
             competing in competitions, performing at concerts, including local 
             Young Musician concerts, ABRSM High Scorers Concerts, and other concerts.
             I've also performed in various dance shows and musicals, including a performance at the John Smith's Stadium 
-            in Huddersfield.
-            </p>
+            in Huddersfield.</p>
             </div>
             </div>
             <div className="bookscontainer">
+                <br />
               <h3 align="center">Books</h3>
               <br />
               <div className="bookshelf">
-              <img src={spines} className="spines" /><img src={spines} className="spines" /><img src={spines} className="spines" /><img src={spines} className="spines" />
+              <img src={spines2} className="spines" /><img src={spines2} className="spines" /><img src={spines2} className="spines2" />
               </div>
-            <br />
             <div className="reading">
+                <br />
+                <br />
             <p>My love of reading led me to my previous role. While I'll read most things, I'm especially fond of autobiographies and personal development books. 
              I have also read a lot of young adult fiction and will always have a soft spot for children's books</p>
              <br />
@@ -79,7 +81,9 @@ const Interests = () => {
             <br />
             <div className="memoirsmixed">
             <div className="memoirs">
-        <p><strong>Autobiographies and memoirs</strong></p>
+                <br />
+                <br />
+        <p><strong>Memoirs</strong></p>
         <ul>
             <li><strong>My Life So Far</strong> - <a href="https://www.janefonda.com/">Jane Fonda</a></li>
             <li><strong>When Breath Becomes Air</strong>- Paul Kalanithi</li>
@@ -90,11 +94,15 @@ const Interests = () => {
                  <li><strong>Out Of Africa</strong> - <a href="http://www.karenblixen.com/">Karen Blixen</a></li>
                  <li><strong>Hope In A Ballet Shoe</strong> - <a href="http://www.michaeladeprince.com/about-1">Michaela DePrince</a></li>
                  <li><strong>Eat, Pray, Love </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>
-                 <li><strong>The Girl From Aleppo</strong> - Nujeen Mustafa</li>
-                 <li><strong>Lean In</strong> - <a href="https://www.instagram.com/sherylsandberg/?hl=en">Sheryl Sandberg</a></li>
+                 <li><strong>The Girl From Aleppo</strong> 
+                 - Nujeen Mustafa</li>
         </ul>
         </div>
+        <br />
         <div className="mixed">
+            <br />
+            <br />
+            <br />
         <p><strong>Mixed non-fiction</strong></p>
         <ul>
             <li><strong>Year of Wonder</strong> - Clemency Burton-Hill</li>
@@ -112,6 +120,9 @@ const Interests = () => {
             <br />
             <br />
             <div className="personal">
+                <br />
+                <br />
+                <br />
         <p><strong>Personal development</strong></p>
         <ul>
             <li><strong>Presence </strong>- <a href="https://www.amycuddy.com/">Amy Cuddy</a></li>
@@ -119,11 +130,15 @@ const Interests = () => {
             <li><strong>Big Magic </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>
             <li><strong>The Seven Habits Of Highly Effective People</strong> - Stephen Covey</li>
             <li><strong>Mindset </strong>- <a href="https://profiles.stanford.edu/carol-dweck">Carol Dweck</a></li>
-            <li><strong>A Monk's Guide To Happiness</strong> - <a href="https://www.gelongthubten.com/">Gelong Thubten</a></li>  
+            <li><strong>A Monk's Guide To Happiness</strong> - <a href="https://www.gelongthubten.com/">Gelong Thubten</a></li> 
+            <li><strong>Lean In</strong> - <a href="https://www.instagram.com/sherylsandberg/?hl=en">Sheryl Sandberg</a></li> 
         </ul>
         </div>
         <br />
         <div className="ya">
+            <br />
+            <br />
+            <br />
         <p><strong>Young adult fiction</strong></p>
         <ul>
             <li><strong>Turtles All The Way Down</strong> - <a href="https://www.johngreenbooks.com/">John Green</a></li>
@@ -131,16 +146,43 @@ const Interests = () => {
             <li><strong>Lies We Tell Ourselves </strong>- <a href="https://robintalley.com/">Robin Talley</a></li>
             <li><strong>Holding Up The Universe</strong> - Jennifer Niven</li>
             </ul>
-            </div>
-            <div className="children">
         <p><strong>Children's Books</strong></p>
         <ul>
-            <li><strong>The Enchanted Wood & The Magic Faraway Tree</strong> - <a href="https://www.enidblytonsociety.co.uk/">Enid Blyton</a></li>
+            <li><strong>The Enchanted Wood</strong>- Enid Blyton</li>
+            <li><strong>The Magic Faraway Tree</strong> - <a href="https://www.enidblytonsociety.co.uk/">Enid Blyton</a></li>
         </ul>
+        <br />
+        <br />
+        <br />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         </div>
         </div>
         </div>
-        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <br />
@@ -171,15 +213,35 @@ const Interests = () => {
         </div>
         </div>
         </div>
-        <hr></hr>
+
+        <br />
+        <div className="pinkstrip">
+        </div>
         <div className="photos">
-            <br />
+        <div className="photostitle">
         <h4 align="center">Photography</h4>
+        </div>
+        <br />
+        <div className="photostext">
+        
+       <br />
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus, tellus quis elementum imperdiet,
+            nisi enim pellentesque elit, 
+           sit amet maximus tellus est nec lorem. Cras velit mi, fermentum eu rhoncus sit amet, posuere vel
+            justo. Nulla congue mi et euismod viverra.
+            Aenean vitae nunc pulvinar, consectetur turpis pretium, imperdiet arcu. Aenean eget neque ipsum. 
+            Curabitur id urna ligula. Nulla vel cursus neque,
+             quis sollicitudin lorem. Nullam rutrum condimentum tincidunt. Sed dapibus fermentum diam, a 
+             pretium ex vehicula a. Curabitur consectetur metus purus.
+         </p>
+
+
+</div>
         <br />
         <br />
         <br />
         <br />
-        <br />
+        <div className="photoscontainer">
         <img className="deer" src={deer} alt="deer" 
            onClick={() =>
            flickrHandler("https://www.flickr.com/photos/51541259@N03/")
@@ -189,23 +251,8 @@ const Interests = () => {
           <p>Click on the photo to see my very amateur shots</p>
         <br />
         <br />
-        <br />
-        <br />
-        <br />
        
-        <div className="photostext">
-        
-       <br />
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus, tellus quis elementum imperdiet, nisi enim pellentesque elit, 
-           sit amet maximus tellus est nec lorem. Cras velit mi, fermentum eu rhoncus sit amet, posuere vel justo. Nulla congue mi et euismod viverra.
-            Aenean vitae nunc pulvinar, consectetur turpis pretium, imperdiet arcu. Aenean eget neque ipsum. Curabitur id urna ligula. Nulla vel cursus neque,
-             quis sollicitudin lorem. Nullam rutrum condimentum tincidunt. Sed dapibus fermentum diam, a pretium ex vehicula a. Curabitur consectetur metus purus.
-
-Sed interdum magna ac convallis mattis. Cras malesuada luctus quam, ut sagittis lacus euismod nec. Mauris tincidunt in elit in sollicitudin. Nullam in lacinia nisi, i
-n fermentum purus. Maecenas mattis dignissim sapien ut lobortis. Mauris at feugiat ante, ac viverra ex. Interdum et malesuada fames ac ante ipsum primis in faucibus.
- Duis porta turpis nec imperdiet ornare. Duis eget molestie ligula. Integer posuere dictum diam id finibus. Nullam sagittis sollicitudin dui, ac malesuada augue pharetra sit amet. 
- Fusce ornare purus magna, id porta est elementum mattis. Ut blandit mi justo, at ullamcorper magna elementum ut. Suspendisse sit amet nibh sed libero pulvinar luctus ac a ante. Mauris imperdiet ac metus iaculis venenatis.
-</p>
+    
 </div>
        <br />
        <br />

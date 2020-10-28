@@ -18,13 +18,14 @@ const About = () => {
     <Header />
     <div className="body">
         <div className="welcome" id="home">
-          <br />
           <div className="container">
         <Animated animationInDuration="4000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
            <img className="me3" src={logoreal} />
           </Animated>
           <h2>Full Stack<span>Developer</span></h2>
           </div>
+          <br />
+          <br />
           <div className="text">
            <p>I'm a full stack developer and graduate of both <strong>Makers Academy</strong> and the <strong>University of Sheffield's School of Languages and
            Cultures.</strong></p>
@@ -45,7 +46,11 @@ const About = () => {
       </div>
       </div>
       <br />
-      <h2>Drop me a line</h2>
+      <br />
+      <br />
+      <br />
+      <br />
+      <h2>Contact Me</h2>
       <Form />
       </div>
       </div>

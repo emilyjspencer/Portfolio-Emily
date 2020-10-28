@@ -46,8 +46,8 @@ p {
 }
 
 .me3 {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   display: flex;
   flex-direction: row;
   margin-left: auto;
@@ -55,7 +55,7 @@ p {
   border-radius: 50%;
   padding: 10px;
   position: relative;
-  bottom: 30px;
+  bottom: -20px;
   right: 40px;
  
 }
@@ -63,6 +63,10 @@ p {
 .technologies {
   background-color: rgb(223, 222, 222);
   width: 100%;
+}
+
+.technologiestext {
+  font-size: 20px;
 }
 
 #techstack {

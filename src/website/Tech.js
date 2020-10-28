@@ -23,11 +23,12 @@ import css from './images/cards/css.png';
 import materialui from './images/cards/materialui.png';
 
 import {
-    DiPython
+    DiPython,
+    DiJqueryLogo
 } from 'react-icons/di';
 import {
   GiJasmine,
-  GiRecycle
+  GiRecycle,
 } from 'react-icons/gi';
 import {
   FaGem,
@@ -41,103 +42,113 @@ SiJest,
 SiMaterialUi,
 SiMongodb,
 SiMocha,
+SiBootstrap,
 SiHtml5,
 } from 'react-icons/si';
 
 
 const Tech = () =>  (
     <>
-  <div className="technologies1">
-    <div className="technologiesContainer">
-      <FaGem className="ruby" />
-      <p>Ruby</p>
-    </div>
-    <div className="technologiesContainer">
-        <img className="rails" src={rails} />
-      <p>Rails</p>
-    </div>
-
-    <div className="technologiesContainer">
-      <FaReact className="react" />
-      <p>React</p>
-    </div>
-
-    <div className="technologiesContainer">
-        <DiPython className="python" />
-        <p>Python</p>
-    </div>
-
-
-    <div className="technologiesContainer">
-        <SiJavascript className="javascript" />
-        <p>JavaScript</p>
-    </div>
-    </div>
-   
-   <div className="technologies2">
-    <div className="technologiesContainer">
-      <SiPostgresql className="postgres"/>
-      <p>PostgreSQL</p>
-    </div>
-
-    <div className="technologiesContainer">
-      <SiMongodb className="mongodb" />
-      <p>MongoDB</p>
-    </div>
-
-    <div className="technologiesContainer">
-      <SiHtml5 className="html"/>
-      <p>HTML5</p>
-    </div>
-
-    <div className="technologiesContainer">
-      <img className="css" src={css} />
-      <p>CSS3</p>
-    </div>
-
-    <div className="technologiesContainer">
-      <SiMaterialUi className="materialui"  />
-      <p>MaterialUi</p>
+  <div className="both">
+  <div className="container1">
+    <table>
      
-    </div>
-    </div>
-    <br />
-    <br />
-    <div className="technologies3">
-   
+      <tr>
+        <td><FaGem className="ruby" /><p>Ruby</p></td>
+        <td> <SiJavascript className="javascript" /><p>JavaScript</p></td>
+        <td> <DiPython className="python" /><p>Python</p></td>
+      </tr>
+      </table>
+     <br />
+      <table>
+       
+        <tr>
+        <td> <img className="rails" src={rails} />
+      <p>Rails</p></td>
+        </tr>
+      </table>
+   <br />
+      <table>
+         
 
-    <div className="technologiesContainer">
-        <GiJasmine className="jasmine2" />
-        <p>Jasmine</p>
-    </div>
+        <tr>
+        <td><DiJqueryLogo className="jquery" /><p>jQuery</p></td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      <br />
+      <br />
+      </div>
 
-    <div className="technologiesContainer">
-        <FaNode className="node2" />
-    </div>
+      <br />
+      <div className="container2">
+      <table>
+       
+        <tr>
+        <td><SiPostgresql className="postgres"/>
+      <p>PostgreSQL</p></td>
+        <td><SiMongodb className="mongodb" />
+      <p>MongoDB</p></td>
+        </tr>
+        <br />
+        <br />
+      </table>
 
-    <div className="technologiesContainer">
-        <GiRecycle className="tdd" />
-         <p>TDD</p>  
-    </div>
+      <br />
+      <table>
+       
+        <tr>
+        <td> <SiMaterialUi className="materialui"  />
+      <p>MaterialUi</p></td>
+        <td><SiHtml5 className="html"/>
+      <p>HTML5</p></td>
+        <td> <img className="css" src={css} />
+      <p>CSS3</p></td>
+        </tr>
+        <br />
+        <br />
+      </table>
+      <br />
+      <br />
+      <br />
+      <br />
+      </div>
+      <div className="container3">
+      <table>
+       
+        <tr>
+        <td> <GiJasmine className="jasmine2" />
+        <p>Jasmine</p></td>
+
+        <td><SiJest className="jest"/> 
+        <p>Jest</p></td>
+
+        <td> <SiMocha className="mocha"/>
+        <p>Mocha</p></td>
+        <td> <FaReact className="react" />
+      <p>React</p></td>
+      <td><SiBootstrap className="bootstrap" /><p>Bootstrap</p></td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      <br />
+      <br />
+      </div>
+      <div className="container4">
+      
+              Enzyme      Chai         Capybara       RSpec      Express       Sinatra   
+      
+
+     
+      </div>
+      </div>
+
   
-    <div className="technologiesContainer">
-        <SiMocha className="mocha"/>
-        <p>Mocha</p>
-    </div>
-
-    <div className="technologiesContainer">
-        <SiJest className="jest"/> 
-        <p>Jest</p>
-    </div>
-   <div>
-     <br />
-     <br />
-     <div className="technologies4">
-  <p>Capybara. Enzyme. Chai. Sinatra. RSpec. Express</p>
-  </div>
+  
  
-</div>
-</div>
+
 
 </>
 )

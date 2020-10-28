@@ -30,6 +30,9 @@ import arts from './images/cards/arts.png';
 
 const Interests = () => {
 
+    const flickrHandler = (url) => {
+        window.open(url, "_blank");
+      };
 
     return (
 
@@ -56,12 +59,8 @@ const Interests = () => {
             I've also performed in various dance shows and musicals, including a performance at the John Smith's Stadium 
             in Huddersfield.
             </p>
-          
             </div>
-            
-    
             </div>
-            <hr></hr>
             <div className="bookscontainer">
               <h3 align="center">Books</h3>
               <br />
@@ -74,13 +73,13 @@ const Interests = () => {
              I have also read a lot of young adult fiction and will always have a soft spot for children's books</p>
              <br />
              <h3 align="center">My Picks</h3>
-     
+             <br />
         <div className="books">
             <br />
             <br />
+            <div className="memoirsmixed">
             <div className="memoirs">
         <p><strong>Autobiographies and memoirs</strong></p>
-      
         <ul>
             <li><strong>My Life So Far</strong> - <a href="https://www.janefonda.com/">Jane Fonda</a></li>
             <li><strong>When Breath Becomes Air</strong>- Paul Kalanithi</li>
@@ -105,6 +104,7 @@ const Interests = () => {
             <li><strong>Spark!</strong> - Dr John R Ratey</li>
             <li><strong>Parisian Intersections</strong>- <a href="https://www.birmingham.ac.uk/staff/profiles/languages/abbott-helen.aspx">Dr Helen Abbott</a></li>
         </ul>
+        </div>
         </div>
         <br />
         </div>
@@ -157,10 +157,6 @@ const Interests = () => {
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        
         <div className="lang">
         <h4>Languages and travel</h4>
         <br />
@@ -176,16 +172,21 @@ const Interests = () => {
         </div>
         </div>
         <hr></hr>
-
-
         <div className="photos">
+            <br />
         <h4 align="center">Photography</h4>
         <br />
         <br />
         <br />
         <br />
         <br />
-        <img className="deer" src={deer} alt="deer" />
+        <img className="deer" src={deer} alt="deer" 
+           onClick={() =>
+           flickrHandler("https://www.flickr.com/photos/51541259@N03/")
+         }
+          title="flickr"
+          />
+          <p>Click on the photo to see my very amateur shots</p>
         <br />
         <br />
         <br />

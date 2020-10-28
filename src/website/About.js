@@ -27,22 +27,37 @@ const About = () => {
           <br />
           <br />
           <div className="text">
+            <br />
+            <br />
            <p>I'm a full stack developer and graduate of both <strong>Makers Academy</strong> and the <strong>University of Sheffield's School of Languages and
            Cultures.</strong></p>
            <p>I've spent the majority of my working life in the education sector during which time I discovered
            the wonders of coding.</p>
-           <p>Starting out with HTML, CSS and JavaScript, I built on this learning at Makers where I gained a solid understanding of object-oriented programming principles,
+           <p>Starting out with <strong>HTML, CSS</strong> and <strong>JavaScript</strong>, I built on this learning at Makers where I gained a solid understanding of object-oriented programming principles,
             test-driven development, front-and-backend development, agile methodologies and object-oriented design.</p>
-          <p>Consult my portfolio for examples of my work</p>  
+            <br />
+          <p className="portfolio"><strong>Consult my portfolio for examples of my work</strong></p>  
       </div>
       <br />
       <br />
-      <div className="technologiestext">
-        <h2 id="techstack">Technologies with which I'm familiar</h2>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div>
+        <br />
         <br />
         <br />
       <div className="white">
       <Tech />
+      <p id="technologiesheader"><strong>Technologies with which I'm familiar</strong></p>
+      <br />
+      <br />
+      <div className="container4">
+      
+           +   Enzyme, Chai, Capybara, RSpec, Express, Sinatra   
+     
+      </div>
       </div>
       </div>
       <br />

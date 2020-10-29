@@ -59,8 +59,10 @@
     background-color: #e4d1d1;
 }
 .memoirs {
-    background-color:  rgb(207, 203, 207);
+    background-color:  rgb(233, 227, 233);
     margin-right: 150px;;
+    position: relative;
+    top: -10px;
     width: 420px;
     height: 410px;
     border-radius: 50%;
@@ -82,7 +84,7 @@
 }
 
 .personal {
-    background-color: rgb(207, 203, 207);
+    background-color:  rgb(233, 227, 233);
     margin-left: 150px;
     margin-top: -47px;
     width: 420px;
@@ -93,7 +95,7 @@
 }
 
 .ya {
-    background-color:  rgb(207, 203, 207);
+    background-color:   rgb(233, 227, 233);
     margin-left: 150px;
     width: 420px;
     border-radius: 50%;
@@ -102,14 +104,24 @@
 }
 
 .children {
-    background-color:  rgb(207, 203, 207);
+    background-color:   rgb(233, 227, 233);
     margin-left: 150px;
     width: 420px;
 }
 
+#picks {
+    color: rgb(78, 77, 77);
+}
+
+.filmstrip {
+    background-color: white;
+}
+
 .mixed {
-    background-color: rgb(207, 203, 207);
+    background-color:  rgb(233, 227, 233);
     margin-right: 150px;
+    position: relative;
+    top: -10px;
     width: 420px;
     height: 410px;
     border-radius: 50%;
@@ -136,6 +148,13 @@
     display: flex;
     flex-direction: row;
     width: 20px;
+}
+
+.bookshelf2 {
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    padding-top: 40px;
 }
 
 .photoscontainer {
@@ -240,12 +259,16 @@ li {
 }
 
 .deer {
-    width: 700px;
-    height: 80%;
+    width: 630px;
+    height: 570px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: #DDD;
+    border: solid 25px #e7d8d8;
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+
 
 
     
@@ -256,11 +279,24 @@ li {
 
 }
 
+#phototitle {
+    background-color: #e4d1d1;
+    height: 0px;
+}
+
+
+#photoheader {
+    position: relative;
+    left: 290px;
+    bottom: 100px;
+}
 
 .photostext {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: left;
+    position: relative;
+    bottom: 40px;
 }
 
 .photostitle {
@@ -270,8 +306,8 @@ li {
 }
 
 .nodecircle {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
@@ -286,8 +322,8 @@ li {
 }
 
 .javacircle {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
@@ -297,8 +333,8 @@ li {
 }
 
 .twittercircle {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
@@ -320,8 +356,8 @@ a:link {
   }
 
 .athenacircle {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
@@ -332,8 +368,8 @@ a:link {
 }
 
 .googlecircle {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
@@ -344,8 +380,8 @@ a:link {
 }
 
 .railscircle {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
@@ -390,7 +426,11 @@ a:link {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 600px;
+    height: 530px;
+}
+
+.bookstitle {
+    background-color: #e4d1d1;
 }
 
 .body {
@@ -401,7 +441,7 @@ a:link {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 600px;
+    height: 0px;
     
     background-size: 600px 500px;
     background-color:  #e4d1d1;

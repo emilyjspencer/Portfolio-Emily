@@ -26,7 +26,7 @@ import travel from './images/cards/travel.png';
 export default class extends React.Component {
   render() {
     return (
-      <Carousel slideWidth="380px" backgroundColor="pink">
+      <Carousel slideWidth="380px">
         <img className="travel" src={travel} />
            <img className="mozart" src={mozart}/>
            <img className="paris" src={paris} />

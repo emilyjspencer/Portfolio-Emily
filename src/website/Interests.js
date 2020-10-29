@@ -69,22 +69,22 @@ const Interests = () => {
             </div>
             </div>
             <div className="bookscontainer">
-                <br />
+                <div className="bookstitle">
               <h3 align="center">Books</h3>
-              <br />
+              </div>
               <div className="bookshelf">
               <img src={spines2} className="spines" /><img src={spines2} className="spines" /><img src={spines2} className="spines2" />
               </div>
             <div className="reading">
                 <br />
                 <br />
-            <p>My love of reading is what led me to my previous role. While I take delight in getting stuck into a good novel, I'm more of a fan of non-fiction, especially autobiographies and personal development books. 
-             My previous role also dictated much of what I read during that time, so I have read plenty of young adult fiction books, from authors as varied as John Green, Holly Bourne, and Rainbow Rowell to Veronica Roth, 
-             Patrick Ness, Nicola Yoon.</p>
+            <p>My love of reading is what led me to my previous role. While I take delight in getting stuck into a good novel, I have a preference for non-fiction, especially autobiographies and personal development books. 
+             My previous role also dictated much of what I read during that time, so I have read plenty of young adult fiction books, from authors as varied as <strong>John Green</strong>, <strong>Holly Bourne</strong>,and <strong>Rainbow Rowell</strong> to <strong>Veronica Roth</strong>, 
+             <strong> Patrick Ness</strong>, and <strong>Nicola Yoon</strong>.</p>
+             <p>Some favourites:</p>
              <br />
-             <h5 align="center">My Picks</h5>
+             
         <div className="books">
-            <br />
             <br />
             <div className="memoirsmixed">
             <div className="memoirs">
@@ -96,13 +96,14 @@ const Interests = () => {
             <li><strong>When Breath Becomes Air</strong>- Paul Kalanithi</li>
                 <li><strong>A Lotus Grows In The Mud</strong> - Goldie Hawn</li>
                 <li><strong>Long Walk To Freedom </strong>- Nelson Mandela</li>
-                 <li><strong>Home</strong>- Julie Andrews</li>   
+                <li><strong>The Girl From Aleppo</strong> 
+                 - Nujeen Mustafa</li>  
                  <li><strong>How To Be A Woman</strong> - <a href="https://www.caitlinmoran.co.uk/">Caitlin Moran</a></li>
                  <li><strong>Out Of Africa</strong> - <a href="http://www.karenblixen.com/">Karen Blixen</a></li>
                  <li><strong>Hope In A Ballet Shoe</strong> - <a href="http://www.michaeladeprince.com/about-1">Michaela DePrince</a></li>
+                 <li><strong>Home</strong>- Julie Andrews</li> 
                  <li><strong>Eat, Pray, Love </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>
-                 <li><strong>The Girl From Aleppo</strong> 
-                 - Nujeen Mustafa</li>
+                
         </ul>
         </div>
         <br />
@@ -122,6 +123,7 @@ const Interests = () => {
         </div>
         </div>
         <br />
+        
         </div>
         <div className="books2">
             <br />
@@ -135,9 +137,9 @@ const Interests = () => {
             <li><strong>Presence </strong>- <a href="https://www.amycuddy.com/">Amy Cuddy</a></li>
             <li><strong>#Girlboss</strong> - <a href="https://www.sophiaamoruso.com/">Sophia Amoruso</a></li>
             <li><strong>Big Magic </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>
+            <li><strong>A Monk's Guide To Happiness</strong> - <a href="https://www.gelongthubten.com/">Gelong Thubten</a></li>
             <li><strong>The Seven Habits Of Highly Effective People</strong> - Stephen Covey</li>
-            <li><strong>Mindset </strong>- <a href="https://profiles.stanford.edu/carol-dweck">Carol Dweck</a></li>
-            <li><strong>A Monk's Guide To Happiness</strong> - <a href="https://www.gelongthubten.com/">Gelong Thubten</a></li> 
+            <li><strong>Mindset </strong>- <a href="https://profiles.stanford.edu/carol-dweck">Carol Dweck</a></li> 
             <li><strong>Lean In</strong> - <a href="https://www.instagram.com/sherylsandberg/?hl=en">Sheryl Sandberg</a></li> 
         </ul>
         </div>
@@ -160,11 +162,21 @@ const Interests = () => {
         </ul>
         <br />
         <br />
-       
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+        <br />
+        <br />  <br />
+       <br />
+       <br />
+        <br />
+        <br />
         <br />
         <br />
         </div>
-        <div className="bookshelf">
+        <div className="bookshelf2">
             <br />
             <br />
             <br />
@@ -244,34 +256,38 @@ const Interests = () => {
             <br />
             <br />
             <br />
-        <h4>Languages and travel</h4>
-        <br />
-        <div className="languages">
-          <p>There is something thrilling about being able to understand and communicate in another language and having studied modern languages at university, I've had the opportunity to learn a handful of languages; French, German and Dutch and a little Spanish.</p>
-            <p>Studying languages also gave me the opportunity to live and work abroad; I worked in Brittany, France for six months before moving to Heidelberg to study at Germany's
-            oldest university - the Ruprecht Karls Universitaet Heidelberg. </p>
-             <p>Swipe or click 'next' to see some of the other places I've been</p>
-        <div className="pink3" >
-
-        <CarouselTravel />
-        <br />
-     
-        </div>
-        </div>
-        </div>
-
-        <br />
-        <div className="pinkstrip">
-        </div>
-        <div className="photos">
-        <div className="photostitle">
-       
-        <h4 align="center">Photography</h4>
-        </div>
-        <br />
-        <div className="photostext">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+      
+        <div className="pinkstrip"></div>
         
-       <br />
+      
+        <div className="photos">
+        <div className="photostext">
+            <h3 id="photoheader" align="center">Photography</h3>
        <p>From the moment I was handed a camera (a Christmas present from my father when I was twelve years old), I've enjoyed capturing moments in time through the lens of a camera, whether
            that be a on phone, an SLR or an old-school digital model.
            I enjoy, as I'm sure many others do, looking back through old photographs of places I've been, people I've met,
@@ -281,9 +297,7 @@ const Interests = () => {
            <br />
            Click on the photograph to see some of my (admittedly amateur shots)
          </p>
-
-
-</div>
+        </div>
         <br />
         <br />
         <br />
@@ -297,9 +311,7 @@ const Interests = () => {
           />
         <br />
         <br />
-       
-    
-</div>
+       </div>
        <br />
        <br />
         <br />
@@ -313,17 +325,18 @@ const Interests = () => {
         <br />
         <br />
         </div>
-        <br />
        <div>
-    
-       
         </div>
-        <hr/>
+        <hr />
         <div className="techie">
+            <br />
         <h4>Tech</h4>
         <br />
-        <p>I try to attend tech meetups when I can</p>
-        <p>Below are a few I've been to.</p>
+        <p>I try to attend tech meetups when I can. Here are a few I've been to.</p>
+        <p>From left to right: Node Girls London at Financial Times, an android development workshop,
+        organised by Codebar and hosted by Trainline, a Women in Tech event at Twitter, a Codebar workshop hosted by Google, AthenaHack - an all-female
+        hackathon and event, hosted by Queen Mary, University of London, Rails Girls London, hosted by Deliveroo.
+        </p>
        <div className="tech">
         <img className="nodecircle" src={nodecircle} alt="nodegirlslondon" />
         <br />
@@ -340,11 +353,30 @@ const Interests = () => {
         </div>
        
         <hr></hr>
+        <h4>Languages and travel</h4>
+        <br />
+        <div className="languages">
+          <p>There is something thrilling about being able to understand and communicate in another language and having studied modern languages at university, I've had the opportunity to learn a handful of languages; French, German and Dutch and a little Spanish.</p>
+            <p>Studying languages also gave me the opportunity to live and work abroad; I worked in Brittany, France for six months before moving to Heidelberg to study at Germany's
+            oldest university - the Ruprecht Karls Universitaet Heidelberg. </p>
+             <p>Swipe or click 'next' to see some of the other places I've been</p>
+        <div className="pink3" >
+
+        <CarouselTravel />
+        <br />
+        </div>
+        </div>
+        </div>
        
         <h4>Film</h4>
         <div className="film">
-            <p>I'm a huge fan of films and enjoy most genres, but here are a few of my favourites</p>
+            <br />
+          <p>I'm a huge fan of films and enjoy most genres, whether that be romantic comedy, historical drama, horror, indie, romantic epics or thriller.</p>
+        <p>I hugely admire the work and talent of actors, actresses and directors such as Meryl Streep, Dustin Hoffman, Vera Farmiga, Woody Allen.</p>
+        <p> Below are a few of my favourite films</p>
+        <div className="filmstrip">
         <Carousel/>
+        </div>
         </div>
     
         </div>

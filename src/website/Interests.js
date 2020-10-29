@@ -4,6 +4,7 @@ import CarouselTravel from './CarouselTravel';
 import Header2 from './Header2';
 import Header from './Header';
 import { Animated } from "react-animated-css";
+import Map from './Map';
 
 import './Header2.css';
 import './Interests.css';
@@ -26,6 +27,12 @@ import ballet from './images/cards/dancecircle.png';
 import spines from './images/cards/spines6.png';
 import spines2 from './images/cards/spines7.png';
 import arts from './images/cards/arts.png';
+import nodecircle from './images/cards/nodecircle.png';
+import javacircle from './images/cards/javacircle.png';
+import railscircle from './images/cards/railscircle.png';
+import twittercircle from './images/cards/twittercircle.png';
+import athenacircle from './images/cards/athenacircle.png';
+import googlecircle from './images/cards/googlecircle.png';
 
 
 
@@ -71,11 +78,11 @@ const Interests = () => {
             <div className="reading">
                 <br />
                 <br />
-            <p>My love of reading led me to my previous role. While I'll read most things, I'm especially fond of autobiographies and personal development books. 
-             I have also read a lot of young adult fiction and will always have a soft spot for children's books</p>
+            <p>My love of reading is what led me to my previous role. While I take delight in getting stuck into a good novel, I'm more of a fan of non-fiction, especially autobiographies and personal development books. 
+             My previous role also dictated much of what I read during that time, so I have read plenty of young adult fiction books, from authors as varied as John Green, Holly Bourne, and Rainbow Rowell to Veronica Roth, 
+             Patrick Ness, Nicola Yoon.</p>
              <br />
-             <h3 align="center">My Picks</h3>
-             <br />
+             <h5 align="center">My Picks</h5>
         <div className="books">
             <br />
             <br />
@@ -153,8 +160,38 @@ const Interests = () => {
         </ul>
         <br />
         <br />
+       
+        <br />
         <br />
         </div>
+        <div className="bookshelf">
+            <br />
+            <br />
+            <br />
+              <img src={spines2} className="spines" /><img src={spines2} className="spines" /><img src={spines2} className="spines2" />
+              </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <br />
@@ -200,6 +237,13 @@ const Interests = () => {
         <br />
         <br />
         <div className="lang">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         <h4>Languages and travel</h4>
         <br />
         <div className="languages">
@@ -210,6 +254,8 @@ const Interests = () => {
         <div className="pink3" >
 
         <CarouselTravel />
+        <br />
+     
         </div>
         </div>
         </div>
@@ -219,20 +265,21 @@ const Interests = () => {
         </div>
         <div className="photos">
         <div className="photostitle">
+       
         <h4 align="center">Photography</h4>
         </div>
         <br />
         <div className="photostext">
         
        <br />
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus, tellus quis elementum imperdiet,
-            nisi enim pellentesque elit, 
-           sit amet maximus tellus est nec lorem. Cras velit mi, fermentum eu rhoncus sit amet, posuere vel
-            justo. Nulla congue mi et euismod viverra.
-            Aenean vitae nunc pulvinar, consectetur turpis pretium, imperdiet arcu. Aenean eget neque ipsum. 
-            Curabitur id urna ligula. Nulla vel cursus neque,
-             quis sollicitudin lorem. Nullam rutrum condimentum tincidunt. Sed dapibus fermentum diam, a 
-             pretium ex vehicula a. Curabitur consectetur metus purus.
+       <p>From the moment I was handed a camera (a Christmas present from my father when I was twelve years old), I've enjoyed capturing moments in time through the lens of a camera, whether
+           that be a on phone, an SLR or an old-school digital model.
+           I enjoy, as I'm sure many others do, looking back through old photographs of places I've been, people I've met,
+           events I've been to or, simply moments captured with friends and family.
+           I'm especially fond of the work of <a href="http://www.artnet.com/artists/annie-leibovitz/">Annie Leibovtiz</a> - renowned for her portraits of public figures and <a href="https://www.adambirdphotography.com/">Adam Bird</a>
+           <br />
+           <br />
+           Click on the photograph to see some of my (admittedly amateur shots)
          </p>
 
 
@@ -248,7 +295,6 @@ const Interests = () => {
          }
           title="flickr"
           />
-          <p>Click on the photo to see my very amateur shots</p>
         <br />
         <br />
        
@@ -278,17 +324,19 @@ const Interests = () => {
         <br />
         <p>I try to attend tech meetups when I can</p>
         <p>Below are a few I've been to.</p>
-       
-        <img className="node" src={node} alt="nodegirlslondon" />
+       <div className="tech">
+        <img className="nodecircle" src={nodecircle} alt="nodegirlslondon" />
         <br />
-        <img className="java" src={java} alt="codebarandroiddevelopment" />
-        <img className="twitter" src={twitter} alt="twitter" />
+        <img className="javacircle" src={javacircle} alt="codebarandroiddevelopment" />
+        <img className="twittercircle" src={twittercircle} alt="twitter" />
+        <br />
+        <br />
         <br />
         </div>
         <div className="tech2">
-        <img className="google" src={google} alt="googlecodebar" />
-        <img className="athena" src={athena} alt="athenahack" />
-        <img className="railsgirls" src={railsgirls} alt="railsgirlslondon" />
+        <img className="googlecircle" src={googlecircle} alt="googlecodebar" />
+        <img className="athenacircle" src={athenacircle} alt="athenahack" />
+        <img className="railscircle" src={railscircle} alt="railsgirlslondon" />
         </div>
        
         <hr></hr>
@@ -299,7 +347,7 @@ const Interests = () => {
         <Carousel/>
         </div>
     
-        
+        </div>
        </div>
         </>
     )

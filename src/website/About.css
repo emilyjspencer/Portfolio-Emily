@@ -26,6 +26,11 @@
   display: flex; 
 }
 
+.container4 {
+  position: relative;
+  left: 360px;
+}
+
 .text {
   float: right;
   width: 60%;
@@ -63,6 +68,11 @@ p {
 .technologies {
   background-color: rgb(223, 222, 222);
   width: 100%;
+}
+
+.techcontainer {
+  position: relative;
+  left: 40px;
 }
 
 .technologiestext {
@@ -137,7 +147,7 @@ p, h2  {
         .welcome h2 {
           font-size: 1.3rem;
           font-weight: 400;
-          color: #a8a3a8;
+          color: #b3b0b3;
           line-height: 1.8;
           text-align: center; }
           @media (min-width: 50em) {

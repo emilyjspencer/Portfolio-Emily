@@ -38,6 +38,7 @@ import googlecircle from './images/cards/googlecircle.png';
 
 const Interests = () => {
 
+
     const flickrHandler = (url) => {
         window.open(url, "_blank");
       };
@@ -45,10 +46,7 @@ const Interests = () => {
     return (
 
         <>
-
-       <br />
-        <br />
-        <br />
+        <Header />
         <div className="body">
           <div className="performingarts" >
               <div className="performingtext">
@@ -70,8 +68,7 @@ const Interests = () => {
             </div>
             <div className="bookscontainer">
                 <div className="bookstitle">
-              <h3 align="center">Books</h3>
-              </div>
+              <h3 align="center">Books</h3></div>
               <div className="bookshelf">
               <img src={spines2} className="spines" /><img src={spines2} className="spines" /><img src={spines2} className="spines2" />
               </div>

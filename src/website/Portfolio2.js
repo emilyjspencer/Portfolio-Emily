@@ -1,5 +1,6 @@
 import React from 'react';
 import CardProject from './Cards2';
+import Cards2 from './Cards2';
 
 
 import Header from './Header';

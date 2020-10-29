@@ -9,6 +9,9 @@ import logo from './images/cards/logo.png';
 import logoreal from './images/cards/logoreal.png';
 import me2 from './images/cards/me2.png';
 import me3 from './images/cards/me3.png';
+import logo6 from './images/cards/logo6.png';
+import logo7 from './images/cards/logo7.png';
+import logo8 from './images/cards/logo8.png';
 import './About.css';
 
 
@@ -20,7 +23,7 @@ const About = () => {
         <div className="welcome" id="home">
           <div className="container">
         <Animated animationInDuration="4000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
-           <img className="me3" src={logoreal} />
+           <img className="me3" src={logo8} />
           </Animated>
           <h2>Full Stack<span>Developer</span></h2>
           </div>
@@ -41,17 +44,14 @@ const About = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
       <div>
         <br />
         <br />
-        <br />
       <div className="white">
+        <div className="techcontainer">
       <Tech />
+      </div>
       <p id="technologiesheader"><strong>Technologies with which I'm familiar</strong></p>
-      <br />
       <br />
       <div className="container4">
       

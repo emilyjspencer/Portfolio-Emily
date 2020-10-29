@@ -3,7 +3,7 @@ import React from 'react';
 import Form from './Form';
 import { Animated } from "react-animated-css";
 
-import Header2 from './Header2';
+import Header from './Header';
 import './Form.css';
 
 import flowers7grey from './images/cards/flowers7grey.png';
@@ -13,7 +13,7 @@ const Contact = () => {
 
   return (
     <>
-  <Header2 />
+  <Header />
   <div className="contact" id="contact">
       <h1>Contact me</h1>
    

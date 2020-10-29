@@ -1,4 +1,15 @@
 .cherryblossom {
     width: 102%;
-    height: 280px;
+    height: 250px;
+}
+
+
+.greystripabove {
+    background-color: rgb(202, 195, 195);
+    height: 40px;
+}
+
+.greystrip {
+    background-color: rgb(219, 212, 212);
+    height: 50px;
 }

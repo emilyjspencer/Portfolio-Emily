@@ -1,6 +1,6 @@
 .dance {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     padding: 15px;
@@ -8,12 +8,13 @@
     margin: 10px;
     box-sizing: border-box;
     background-color: #DDD;
+    border: solid  #e7d8d8 20px;
 
 }
 
 .physical {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -21,12 +22,13 @@
     background-color: #DDD;
     border-radius: 50%;
     margin: 10px;
+    border: solid  #e7d8d8 20px;
 
 }
 
 .piano {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -34,9 +36,98 @@
     background-color: #DDD;
     border-radius: 50%;
     margin: 10px;
+    border: solid  #e7d8d8 20px;
 
 
 }
+
+.outofafricacircle {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: solid  #e7d8d8 20px;
+
+}
+
+.atmiddletoncircle {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: solid  #e7d8d8 20px;
+
+}
+
+
+.hideouskinkycircle {
+
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: solid  #e7d8d8 20px;
+}
+
+.blackswancircle {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: solid  #e7d8d8 20px;
+
+}
+
+.secretgardencircle {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: solid  #e7d8d8 20px;
+
+}
+
+.burnyourmapscircle {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: solid  #e7d8d8 20px;
+
+}
+
+.manhattancircle {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: solid  #e7d8d8 20px;
+
+}
+
+
 
 .books {
     text-align: center;
@@ -67,13 +158,13 @@
     margin-right: 150px;;
     position: relative;
     top: -10px;
-    width: 420px;
-    height: 410px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
-    border: solid rgb(194, 190, 190) 4px;
+    border: solid  #e7d8d8 20px;
    
   
   
@@ -91,20 +182,20 @@
     background-color:  rgb(233, 227, 233);
     margin-left: 150px;
     margin-top: -47px;
-    width: 420px;
-    height: 410px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     text-align: center;
-    border: solid rgb(194, 190, 190) 4px;
+    border: solid  #e7d8d8 20px;
 }
 
 .ya {
     background-color:   rgb(233, 227, 233);
     margin-left: 150px;
-    width: 420px;
+    width: 450px;
     border-radius: 50%;
-    height: 410px;
-    border: solid rgb(194, 190, 190) 4px;
+    height: 450px;
+    border: solid  #e7d8d8 20px;
 }
 
 .children {
@@ -117,8 +208,8 @@
     color: rgb(78, 77, 77);
 }
 
-.filmstrip {
-    background-color: white;
+.film {
+    background-color:  #e4d1d1;
 }
 
 .mixed {
@@ -126,10 +217,10 @@
     margin-right: 150px;
     position: relative;
     top: -10px;
-    width: 420px;
-    height: 410px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
-    border: solid rgb(194, 190, 190) 4px;
+    border: solid  #e7d8d8 20px;
 }
 
 .pinkstrip {
@@ -403,29 +494,6 @@ a:link {
   
 }
 
-.hollybourne {
-    width: 350px;
-    height: 350px;
-    position: relative;
-    top: 90px;
-    left: 35px;
-
-}
-
-.snap {
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    top: 60px;
-}
-
-.snap2 {
-  
-    width: 300px;
-    height: 300px;
-}
 
 .photos {
     display: flex;

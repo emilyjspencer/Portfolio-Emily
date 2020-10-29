@@ -14,6 +14,8 @@ return (
     <div className="footer">
         <br />
         <br />
+        <br />
+        <br />
         <FaGithub
            className="githubicon"
            onClick={() =>

@@ -17,6 +17,8 @@ import greybanner4 from './images/cards/greybanner4.png';
 import greybanner10 from './images/cards/greybanner10.png';
 import greybanner11 from './images/cards/greybanner11.png';
 import greybanner12 from './images/cards/greybanner12.png';
+import greybanner13 from './images/cards/greybanner13.png';
+import blossombanner from './images/cards/blossombanner.png';
 
 import './Header.css';
 
@@ -26,7 +28,7 @@ const Header = () => {
         <Animated animationInDuration="3000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
         <div className="header">
             <br />
-            <img className="cherryblossom" src={greybanner12} alt="banner" />
+            <img className="cherryblossom" src={blossombanner} alt="banner" />
         </div>
         <div className="greystripabove"></div>
       

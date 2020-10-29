@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Homepage from './Homepage';
+
 import About from './About';
 import Portfolio2 from './Portfolio2';
 import CV from './CV';

@@ -33,6 +33,13 @@ import railscircle from './images/cards/railscircle.png';
 import twittercircle from './images/cards/twittercircle.png';
 import athenacircle from './images/cards/athenacircle.png';
 import googlecircle from './images/cards/googlecircle.png';
+import outofafricacircle from './images/cards/outofafricacircle.png';
+import atmiddletoncircle from './images/cards/atmiddletoncircle.png';
+import manhattancircle from './images/cards/manhattancircle.png';
+import burnyourmapscircle from './images/cards/burnyourmapscircle.png';
+import hideouskinkycircle from './images/cards/hideouskinkycircle.png';
+import secretgardencircle from './images/cards/secretgardencircle.png';
+import blackswancircle from './images/cards/blackswancircle.png';
 
 
 
@@ -46,8 +53,9 @@ const Interests = () => {
     return (
 
         <>
-        <Header />
+        
         <div className="body">
+        <Header />
           <div className="performingarts" >
               <div className="performingtext">
           <h4>The Performing Arts</h4>
@@ -58,7 +66,7 @@ const Interests = () => {
     
             </div>
            <p>Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
-            and will always have a deep appreciation for all aspects of the performing arts. 
+            and a deep appreciation for all aspects of the performing arts. 
             Taking examinations in these areas on a yearly basis meant that I spent many an hour honing these skills,
             competing in competitions, performing at concerts, including local 
             Young Musician concerts, ABRSM High Scorers Concerts, and other concerts.
@@ -75,8 +83,8 @@ const Interests = () => {
             <div className="reading">
                 <br />
                 <br />
-            <p>My love of reading is what led me to my previous role. While I take delight in getting stuck into a good novel, I have a preference for non-fiction, especially autobiographies and personal development books. 
-             My previous role also dictated much of what I read during that time, so I have read plenty of young adult fiction books, from authors as varied as <strong>John Green</strong>, <strong>Holly Bourne</strong>,and <strong>Rainbow Rowell</strong> to <strong>Veronica Roth</strong>, 
+            <p>My love of reading is what led me to my previous role. While I enjoy getting stuck into a good novel, I prefer to read non-fiction, especially autobiographies and personal development books. 
+             My previous role also dictated much of what I read during a two-year period, so I have read plenty of young adult fiction books, from authors as varied as <strong>John Green</strong>, <strong>Holly Bourne</strong>,and <strong>Rainbow Rowell</strong> to <strong>Veronica Roth</strong>, 
              <strong> Patrick Ness</strong>, and <strong>Nicola Yoon</strong>.</p>
              <p>Some favourites:</p>
              <br />
@@ -173,12 +181,7 @@ const Interests = () => {
         <br />
         <br />
         </div>
-        <div className="bookshelf2">
-            <br />
-            <br />
-            <br />
-              <img src={spines2} className="spines" /><img src={spines2} className="spines" /><img src={spines2} className="spines2" />
-              </div>
+       
         <br />
         <br />
         <br />
@@ -273,26 +276,22 @@ const Interests = () => {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <hr />
       
         <div className="pinkstrip"></div>
         
-      
+      <hr />
         <div className="photos">
         <div className="photostext">
             <h3 id="photoheader" align="center">Photography</h3>
-       <p>From the moment I was handed a camera (a Christmas present from my father when I was twelve years old), I've enjoyed capturing moments in time through the lens of a camera, whether
-           that be a on phone, an SLR or an old-school digital model.
-           I enjoy, as I'm sure many others do, looking back through old photographs of places I've been, people I've met,
+       <p>From the moment I was handed a camera (a Christmas present from my father when I was twelve years old), I've enjoyed capturing moments in time through the lens, whether
+           that be with a phone, an SLR or an old-school digital model.
+           I enjoy, as many others do, looking back through old photographs of places I've been, people I've met,
            events I've been to or, simply moments captured with friends and family.
            I'm especially fond of the work of <a href="http://www.artnet.com/artists/annie-leibovitz/">Annie Leibovtiz</a> - renowned for her portraits of public figures and <a href="https://www.adambirdphotography.com/">Adam Bird</a>
            <br />
            <br />
-           Click on the photograph to see some of my (admittedly amateur shots)
+           Click on the photograph to see some of my (very amateur shots)
          </p>
         </div>
         <br />
@@ -329,9 +328,11 @@ const Interests = () => {
             <br />
         <h4>Tech</h4>
         <br />
-        <p>I try to attend tech meetups when I can. Here are a few I've been to.</p>
-        <p>From left to right: Node Girls London at Financial Times, an android development workshop,
-        organised by Codebar and hosted by Trainline, a Women in Tech event at Twitter, a Codebar workshop hosted by Google, AthenaHack - an all-female
+        <p>As a developer I am, naturally, interested in technology. I keep up-to-date with the latest news and trends through various means such as reading <strong>TechCrunch,
+        TechRadar, Wired</strong>, by listening to podcasts such as the <strong>LadyBug</strong> podcast, and simply by being part of the Twitter developer community.</p>
+        <p>I also try to attend tech meetups when I can. Here are a few I've been to.</p>
+        <p>From left to right: <strong>Node Girls London</strong> at Financial Times, an android development workshop,
+        organised by Codebar and hosted by Trainline, a Women in Tech event at Twitter, a Codebar workshop hosted by Google, <strong>AthenaHack</strong>- an all-female
         hackathon and event, hosted by Queen Mary, University of London, Rails Girls London, hosted by Deliveroo.
         </p>
        <div className="tech">
@@ -350,6 +351,31 @@ const Interests = () => {
         </div>
        
         <hr></hr>
+   
+   </div>
+       
+        <h4>Film</h4>
+        <div className="film">
+            <br />
+          <p>I'm a huge fan of films and enjoy most genres, whether that be romantic comedy, historical drama, horror, indie, romantic epics or thriller.</p>
+        <p>I greatly admire the work and talent of actors, actresses and directors such as <strong>Meryl Streep, Dustin Hoffman, Vera Farmiga, and Woody Allen</strong>.</p>
+        <p> Below are a few of my favourite films. From left to right: Meryl Streep and Robert Redford in <strong>Out of Africa</strong>, Andy Garcia and Vera Farmiga in</p>
+        <p><strong>At Middleton</strong>, Natalie Portman in <strong>Black Swan</strong>, Carrie Mullan, Kate Winslet and Bella Riza in <strong>Hideous Kinky</strong>, Diane Keaton and Woody Allen in Allen's <strong>Manhattan</strong></p>
+        <p>Jacob Tremblay in Burn Your Maps, Andrew Knott, Heydon Prowse and Kate Maberly in <strong>The Secret Garden</strong></p>
+        <div className="filmstrip">
+        <img src={outofafricacircle} className="outofafricacircle" />
+        <img src={atmiddletoncircle} className="atmiddletoncircle" />
+        <img src={blackswancircle} className="blackswancircle" />
+        <img src={hideouskinkycircle} className="hideouskinkycircle" />
+        <img src={manhattancircle} className="manhattancircle" />
+        <img src={burnyourmapscircle} className="burnyourmapscircle" />
+        <img src={secretgardencircle} className="secretgardencircle" />
+        <br />
+        <br />
+        <br />
+        </div>
+        </div>
+        <hr />
         <h4>Languages and travel</h4>
         <br />
         <div className="languages">
@@ -363,19 +389,6 @@ const Interests = () => {
         <br />
         </div>
         </div>
-        </div>
-       
-        <h4>Film</h4>
-        <div className="film">
-            <br />
-          <p>I'm a huge fan of films and enjoy most genres, whether that be romantic comedy, historical drama, horror, indie, romantic epics or thriller.</p>
-        <p>I hugely admire the work and talent of actors, actresses and directors such as Meryl Streep, Dustin Hoffman, Vera Farmiga, Woody Allen.</p>
-        <p> Below are a few of my favourite films</p>
-        <div className="filmstrip">
-        <Carousel/>
-        </div>
-        </div>
-    
         </div>
        </div>
         </>

@@ -4,7 +4,7 @@ import { Animated } from "react-animated-css";
 import Tech from './Tech';
 import Header from './Header';
 import Form from './Form';
-
+import Footer from './Footer';
 import logo from './images/cards/logo.png';
 import logoreal from './images/cards/logoreal.png';
 import me2 from './images/cards/me2.png';
@@ -12,6 +12,9 @@ import me3 from './images/cards/me3.png';
 import logo6 from './images/cards/logo6.png';
 import logo7 from './images/cards/logo7.png';
 import logo8 from './images/cards/logo8.png';
+import binary from './images/cards/binary.svg';
+import laptop from './images/cards/laptop.svg';
+import laptopcoffee from './images/cards/laptopcoffee.svg';
 import './About.css';
 
 
@@ -39,36 +42,29 @@ const About = () => {
            <p>Starting out with <strong>HTML, CSS</strong> and <strong>JavaScript</strong>, I built on this learning at Makers where I gained a solid understanding of object-oriented programming principles,
             test-driven development, front-and-backend development, agile methodologies and object-oriented design.</p>
             <br />
-          <p className="portfolio"><strong>Consult my portfolio for examples of my work</strong></p>  
+            <br /> 
+            <p id="portfolio"><strong>Please consult my portfolio for examples of my work</strong></p>  
+            <br />
       </div>
-      <br />
-      <br />
-      <br />
+      </div>
+      <div class="body2">
       <div>
         <br />
         <br />
-      <div className="white">
-        <div className="techcontainer">
       <Tech />
-      </div>
+      
       <p id="technologiesheader"><strong>Technologies with which I'm familiar</strong></p>
       <br />
       <div className="container4">
       
            +   Enzyme, Chai, Capybara, RSpec, Express, Sinatra   
      
-      </div>
+           </div>
       </div>
       </div>
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <h2>Contact Me</h2>
-      <Form />
       </div>
-      </div>
+    
     </>
   )
 }

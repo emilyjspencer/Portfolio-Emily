@@ -4,6 +4,7 @@ import Form from './Form';
 import { Animated } from "react-animated-css";
 
 import Header from './Header';
+import Footer from './Footer';
 import './Form.css';
 
 import flowers7grey from './images/cards/flowers7grey.png';
@@ -36,6 +37,7 @@ const Contact = () => {
       </form>
      
       </div>
+      <Footer />
       </>
     )
 

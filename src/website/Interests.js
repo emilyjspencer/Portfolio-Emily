@@ -53,9 +53,9 @@ const Interests = () => {
     return (
 
         <>
-        
+          <Header />
         <div className="body">
-        <Header />
+      
           <div className="performingarts" >
               <div className="performingtext">
           <h4>The Performing Arts</h4>
@@ -66,7 +66,7 @@ const Interests = () => {
     
             </div>
            <p>Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
-            and a deep appreciation for all aspects of the performing arts. 
+            a deep appreciation for all aspects of the performing arts. 
             Taking examinations in these areas on a yearly basis meant that I spent many an hour honing these skills,
             competing in competitions, performing at concerts, including local 
             Young Musician concerts, ABRSM High Scorers Concerts, and other concerts.
@@ -168,14 +168,17 @@ const Interests = () => {
         <br />
         <br />
        <br />
+       
        <br />
        <br />
        <br />
        <br />
         <br />
-        <br />  <br />
+        <hr />
+        <br /> 
        <br />
        <br />
+       
         <br />
         <br />
         <br />

@@ -635,7 +635,7 @@ export default function CardProject() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/presents_planner.png" )}
+        image= { require ("./images/cards/additem3.png" )}
         title="presents"
       />
         </CardContent>

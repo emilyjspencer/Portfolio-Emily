@@ -15,7 +15,7 @@ const Portfolio2 = () => {
             <Header />
             <div className="body">
             <p className="work">Portfolio</p>
-            <CardProject />
+            <CardProject/>
             </div>
         </>
     )

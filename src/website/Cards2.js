@@ -23,8 +23,9 @@ const useStyles = makeStyles((theme) => ({
    padding: theme.spacing(2),
     marginLeft: '15px',
     color: 'gray',
-    width: '40%',
-    display: 'inline-block'
+    width: '50%',
+    display: 'inline-block',
+    backgroundColor: '#dacbcb;',
     
   },
   media: {
@@ -1008,7 +1009,7 @@ export default function CardProject() {
       />
       <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/personalwebsite.png")}
+        image= { require ("./images/cards/main3.png")}
         title="portfolio"
       />
     <CardContent>
@@ -1041,7 +1042,7 @@ export default function CardProject() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/personalwebsite2.png" )}
+        image= { require ("./images/cards/tech.png" )}
         title="portfolio"
       />
         </CardContent>

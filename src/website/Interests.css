@@ -157,7 +157,7 @@
     background-color:  rgb(233, 227, 233);
     margin-right: 150px;;
     position: relative;
-    top: -10px;
+    top: -40px;
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -175,7 +175,11 @@
 }
 
 .photos {
-    background-color:  #e4d1d1;
+    background-color:  #e4e1e1;
+}
+
+.photos2 {
+    background-color:  #e4e1e1;
 }
 
 .personal {
@@ -187,6 +191,9 @@
     border-radius: 50%;
     text-align: center;
     border: solid  #e7d8d8 20px;
+    position: relative;
+    top: -35px;
+
 }
 
 .ya {
@@ -196,6 +203,8 @@
     border-radius: 50%;
     height: 450px;
     border: solid  #e7d8d8 20px;
+    position: relative;
+    top: -35px;
 }
 
 .children {
@@ -216,7 +225,7 @@
     background-color:  rgb(233, 227, 233);
     margin-right: 150px;
     position: relative;
-    top: -10px;
+    top: -45px;
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -224,7 +233,7 @@
 }
 
 .pinkstrip {
-    background-color: #e4d1d1;
+    background-color: #bdb9b9;
     height: 100px;
     width: 100%;
 }
@@ -332,7 +341,7 @@ li {
     flex-direction: row;
     padding: 10px;
     border: solid white 5px;
-    background-color: #e4d1d1;
+    background-color: #dacbcb;
   
 }
 
@@ -376,7 +385,7 @@ li {
 }
 
 #phototitle {
-    background-color: #e4d1d1;
+    background-color: #c0bebe;
     height: 0px;
 }
 
@@ -503,7 +512,7 @@ a:link {
 }
 
 .bookstitle {
-    background-color: #e4d1d1;
+    background-color: #dacbcb;
     height: 40px;
 }
 
@@ -518,7 +527,7 @@ a:link {
     height: 0px;
     
     background-size: 600px 500px;
-    background-color:  #e4d1d1;
+    background-color:  #dacbcb;
 }
 
 .arts {

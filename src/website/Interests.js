@@ -168,17 +168,12 @@ const Interests = () => {
         <br />
         <br />
        <br />
-       
        <br />
        <br />
-       <br />
-       <br />
-        <br />
-        <hr />
+    
         <br /> 
        <br />
        <br />
-       
         <br />
         <br />
         <br />
@@ -252,10 +247,6 @@ const Interests = () => {
         <br />
         <br />
         <div className="lang">
-            <br />
-            <br />
-            <br />
-            <br />
             <br />
             <br />
             <br />

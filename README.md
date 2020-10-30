@@ -12,6 +12,7 @@ A React application to showcase some of my work.
 ![tech](tech.png)
 ![travel](travel.png)
 ![photography](photography.png)
+![main3](main3.png)
 
 ### Deployed at the following:
 

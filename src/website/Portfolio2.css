@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
-.pink {
-    background-color: rgb(119, 114, 114);
-}
+
 
 .body {
     background-color: rgb(197, 166, 197);
     
 }
 
+.cardproject {
+    background-color: rgb(197, 166, 197);
+}
+
 .work {
     font-family: Sacramento;
     text-align: center;
     font-size: 50px;
+  
    
  
 }

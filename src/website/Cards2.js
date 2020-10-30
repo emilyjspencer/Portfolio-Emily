@@ -595,6 +595,56 @@ export default function CardProject() {
       <br />
       <br />
       <br />
+      <Card className={classes.root}>
+      <CardHeader
+        title="Presents Planner"
+        subheader="Plan your gifts for friends and loved ones with Presents Planner"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/presentsmain.png")}
+        title="presents"
+      />
+      <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A React application built using TDD (test-driven development) with Jest and Enzyme
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://pale-plastic.surge.sh/">Presents Planner</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Presents-.git">Presents Planner on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded12,
+          })}
+          onClick={handleExpandClick12}
+          aria-expanded={expanded12}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded12} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            React, CSS, React-Bootstrap, Enzyme, Jest
+          </Typography>
+          <Typography paragraph>
+            Motivation: I wanted to practice creating a React application from scratch, using a test-driven approach.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("./images/cards/presents_planner.png" )}
+        title="presents"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <br />
+    <br />
+    <br />
+    <br />
     <Card className={classes.root}>
       <CardHeader
         title="Rock Paper Scissors"
@@ -792,56 +842,6 @@ export default function CardProject() {
         className={classes.media}
         image= { require ("./images/cards/medium.png" )}
         title="guesstheshade"
-      />
-        </CardContent>
-      </Collapse>
-    </Card>
-    <br />
-    <br />
-    <br />
-    <br />
-    <Card className={classes.root}>
-      <CardHeader
-        title="Presents Planner"
-        subheader="Plan what gifts you want to give your friends and loved ones with Presents Planner"
-      />
-      <CardMedia
-        className={classes.media}
-        image= { require ("./images/cards/presents.png")}
-        title="presents"
-      />
-      <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
-         A React application built using TDD (test-driven development) with Jest and Enzyme
-        </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://pale-plastic.surge.sh/">Guess the Shade</a></Typography>
-        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Presents">Presents Planner on GitHub</a></Typography>
-      </CardContent>
-      <CardActions disableSpacing>
-        <IconButton
-          className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded12,
-          })}
-          onClick={handleExpandClick12}
-          aria-expanded={expanded12}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </IconButton>
-      </CardActions>
-      <Collapse in={expanded12} timeout="auto" unmountOnExit>
-        <CardContent>
-          <Typography paragraph>Tech Stack</Typography>
-          <Typography paragraph>
-            React, CSS, Enzyme, Jest
-          </Typography>
-          <Typography paragraph>
-            Motivation: I wanted to practice creating a React application from scratch, using a test-driven approach.
-          </Typography>
-          <CardMedia
-        className={classes.media}
-        image= { require ("./images/cards/presents_planner.png" )}
-        title="presents"
       />
         </CardContent>
       </Collapse>

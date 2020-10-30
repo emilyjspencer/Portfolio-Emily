@@ -161,10 +161,10 @@
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
     border: solid  #e7d8d8 20px;
+    
    
   
   
@@ -193,6 +193,7 @@
     border: solid  #e7d8d8 20px;
     position: relative;
     top: -35px;
+    box-sizing: border-box;
 
 }
 
@@ -205,6 +206,7 @@
     border: solid  #e7d8d8 20px;
     position: relative;
     top: -35px;
+    box-sizing: border-box;
 }
 
 .children {

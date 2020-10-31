@@ -5,11 +5,16 @@
 
 
 .greystripabove {
-    background-color: rgb(218, 216, 216);
-    height: 40px;
+    background-color: rgb(202, 200, 200);
+    height: 30px;
 }
 
 .greystrip {
-    background-color: rgb(219, 212, 212);
-    height: 50px;
+    background-color: rgb(197, 193, 193);
+    height: 30px;
+}
+
+.greystrip3 {
+    background-color: rgb(197, 193, 193);
+    height: 30px;
 }

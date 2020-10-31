@@ -34,8 +34,7 @@ const About = () => {
           <br />
           <div className="text">
             <br />
-            <br />
-           <p>I'm a full stack developer and graduate of both <strong>Makers Academy</strong> and the <strong>University of Sheffield's School of Languages and
+           <p>I'm a full stack developer and graduate of <strong>Makers Academy</strong> and the <strong>University of Sheffield's School of Languages and
            Cultures.</strong></p>
            <p>I've spent the majority of my working life in the education sector during which time I discovered
            the wonders of coding.</p>
@@ -52,8 +51,7 @@ const About = () => {
         <br />
         <br />
       <Tech />
-      
-      <p id="technologiesheader"><strong>Technologies with which I'm familiar</strong></p>
+      <p id="technologiesheader"><strong>My Toolkit</strong></p>
       <br />
       <div className="container4">
       

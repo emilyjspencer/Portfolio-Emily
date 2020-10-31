@@ -25,14 +25,19 @@ import './Header.css';
 const Header = () => {
 
     return (
+        <>
+        
         <Animated animationInDuration="3000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+      
+       
         <div className="header">
-            <br />
             <img className="cherryblossom" src={blossombanner} alt="banner" />
         </div>
         <div className="greystripabove"></div>
+       
       
         </Animated> 
+        </>
     )
 }
 

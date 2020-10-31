@@ -8,25 +8,11 @@ import Map from './Map';
 
 import './Header2.css';
 import './Interests.css';
-import memoirs from './images/cards/memoirs.png';
-import memoirs2 from './images/cards/memoirs2.png';
-import camera from './images/cards/camera.png';
-import snappy from './images/cards/snappy.jpg';
-import danceexam from './images/cards/danceexam.png';
 import deer from './images/cards/lake.jpg';
-import node from './images/cards/nodegirlslondon.png';
-import java from './images/cards/java.png';
 import piano from './images/cards/pianocircle.png';
-import hollybourne from './images/cards/hollybourne.png';
 import physical from './images/cards/physicalcircle.png';
-import twitter from './images/cards/twitter.png';
-import google from './images/cards/google.png';
-import railsgirls from './images/cards/railsgirls.png';
-import athena from './images/cards/athena.png';
 import ballet from './images/cards/dancecircle.png';
-import spines from './images/cards/spines6.png';
 import spines2 from './images/cards/spines7.png';
-import arts from './images/cards/arts.png';
 import nodecircle from './images/cards/nodecircle.png';
 import javacircle from './images/cards/javacircle.png';
 import railscircle from './images/cards/railscircle.png';
@@ -55,16 +41,18 @@ const Interests = () => {
         <>
           <Header />
         <div className="body">
-      
           <div className="performingarts" >
               <div className="performingtext">
+                  <br />
           <h4>The Performing Arts</h4>
+          <br />
           <div className="performingimages">
             <img className="physical" src={physical} alt="physicaltheatre" />
             <img className="dance" src={ballet} alt="an early dance exam" />
             <img className="piano" src={piano} alt="piano" />
     
             </div>
+            <br />
            <p>Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
             a deep appreciation for all aspects of the performing arts. 
             Taking examinations in these areas on a yearly basis meant that I spent many an hour honing these skills,
@@ -72,6 +60,8 @@ const Interests = () => {
             Young Musician concerts, ABRSM High Scorers Concerts, and other concerts.
             I've also performed in various dance shows and musicals, including a performance at the John Smith's Stadium 
             in Huddersfield.</p>
+            <br />
+            <br />
             </div>
             </div>
             <div className="bookscontainer">
@@ -238,14 +228,7 @@ const Interests = () => {
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <hr />
         <div className="lang">
             <br />
             <br />
@@ -275,59 +258,17 @@ const Interests = () => {
         <div className="pinkstrip"></div>
         
       <hr />
-        <div className="photos">
-        <div className="photostext">
-            <h3 id="photoheader" align="center">Photography</h3>
-       <p>From the moment I was handed a camera (a Christmas present from my father when I was twelve years old), I've enjoyed capturing moments in time through the lens, whether
-           that be with a phone, an SLR or an old-school digital model.
-           I enjoy, as many others do, looking back through old photographs of places I've been, people I've met,
-           events I've been to or, simply moments captured with friends and family.
-           I'm especially fond of the work of <a href="http://www.artnet.com/artists/annie-leibovitz/">Annie Leibovtiz</a> - renowned for her portraits of public figures and <a href="https://www.adambirdphotography.com/">Adam Bird</a>
-           <br />
-           <br />
-           Click on the photograph to see some of my (very amateur shots)
-         </p>
-        </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="photoscontainer">
-        <img className="deer" src={deer} alt="deer" 
-           onClick={() =>
-           flickrHandler("https://www.flickr.com/photos/51541259@N03/")
-         }
-          title="flickr"
-          />
-        <br />
-        <br />
-       </div>
-       <br />
-       <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-       <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        </div>
-       <div>
-        </div>
-        <hr />
-        <div className="techie">
+      <div className="techie">
             <br />
+            <hr />
         <h4>Tech</h4>
         <br />
-        <p>As a developer I am, naturally, interested in technology. I keep up-to-date with the latest news and trends through various means such as reading <strong>TechCrunch,
-        TechRadar, Wired</strong>, by listening to podcasts such as the <strong>LadyBug</strong> podcast, and simply by being part of the Twitter developer community.</p>
-        <p>I also try to attend tech meetups when I can. Here are a few I've been to.</p>
-        <p>From left to right: <strong>Node Girls London</strong> at Financial Times, an android development workshop,
-        organised by Codebar and hosted by Trainline, a Women in Tech event at Twitter, a Codebar workshop hosted by Google, <strong>AthenaHack</strong>- an all-female
-        hackathon and event, hosted by Queen Mary, University of London, Rails Girls London, hosted by Deliveroo.
+        <p>As a developer I am, naturally, interested in all-things tech. I strive to keep up-to-date with the latest news and trends through various means such as reading <strong>TechCrunch,
+        TechRadar, Wired</strong>, by listening to podcasts such as the <strong>LadyBug</strong> podcast, and simply by being part of the developer community on Twitter.</p>
+        <p>I also try to attend tech meetups when I can. Some I've been to are:</p>
+        <p>from left to right: <strong>Node Girls London</strong> at Financial Times, an android development workshop,
+        organised by Codebar and hosted by <strong>Trainline</strong>, a Women in Tech event at <strong>Twitter/strong></strong>, a Codebar workshop hosted by Google, <strong>AthenaHack</strong>- an all-female
+        hackathon and event, hosted by Queen Mary, University of London, Rails Girls London, hosted by <strong>Deliveroo.</strong>
         </p>
        <div className="tech">
         <img className="nodecircle" src={nodecircle} alt="nodegirlslondon" />
@@ -343,11 +284,42 @@ const Interests = () => {
         <img className="athenacircle" src={athenacircle} alt="athenahack" />
         <img className="railscircle" src={railscircle} alt="railsgirlslondon" />
         </div>
-       
-        <hr></hr>
-   
-   </div>
-       
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+       <br />
+    </div>
+        <div className="photos">
+        <div className="photostext">
+            <h3 id="photoheader" align="center">Photography</h3>
+       <p>From the moment I was handed a camera (a Christmas present from my father when I was twelve years old), I've enjoyed capturing moments in time through the lens, whether
+           that be with a phone, an SLR or an old-school digital model.
+           I enjoy, as many others do, looking back through old photographs of places I've been, people I've met,
+           events I've been to or, simply moments captured with friends and family.
+           I'm especially fond of the work of <a href="http://www.artnet.com/artists/annie-leibovitz/">Annie Leibovtiz</a> - renowned for her portraits of public figures and <a href="https://www.adambirdphotography.com/">Adam Bird</a>
+           <br />
+           <br />
+           Click on the photograph to see some of my amateur shots
+         </p>
+        </div>
+        <div className="photoscontainer">
+        <img className="deer" src={deer} alt="deer" 
+           onClick={() =>
+           flickrHandler("https://www.flickr.com/photos/51541259@N03/")
+         }
+          title="flickr"
+          />
+        <br />
+        <br />
+       </div>
+        </div>
+       <div>
+        </div>
         <h4>Film</h4>
         <div className="film">
             <br />
@@ -369,10 +341,18 @@ const Interests = () => {
         <br />
         </div>
         </div>
-        <hr />
+        <div className="grad"></div>
+            <div className="grad2"></div>
+                <div className="grad3"></div>
+                  <div className="grad4"></div>
+                    <div className="grad5"></div>
+                      <div className="grad6"></div>
+                      <div className="grad7"></div>
+            
+        
+        <div className="languages">
         <h4>Languages and travel</h4>
         <br />
-        <div className="languages">
           <p>There is something thrilling about being able to understand and communicate in another language and having studied modern languages at university, I've had the opportunity to learn a handful of languages; French, German and Dutch and a little Spanish.</p>
             <p>Studying languages also gave me the opportunity to live and work abroad; I worked in Brittany, France for six months before moving to Heidelberg to study at Germany's
             oldest university - the Ruprecht Karls Universitaet Heidelberg. </p>

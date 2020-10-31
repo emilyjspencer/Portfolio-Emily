@@ -4,6 +4,7 @@ import Cards2 from './Cards2';
 
 
 import Header from './Header';
+import Header3 from './Header3';
 
 
 import './Portfolio2.css';
@@ -12,9 +13,11 @@ import './Portfolio2.css';
 const Portfolio2 = () => {
     return (
         <>
-            <Header />
-            <div className="body">
+            <Header3/>
+            <div className="main2">
             <p className="work">Portfolio</p>
+            <p id="click">Click on each card to find out more about the projects</p>
+            <br />
             <CardProject/>
             </div>
         </>

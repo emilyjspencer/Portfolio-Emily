@@ -3,8 +3,8 @@ import Carousel from './Carousel';
 import CarouselTravel from './CarouselTravel';
 import Header2 from './Header2';
 import Header from './Header';
-import { Animated } from "react-animated-css";
-import Map from './Map';
+import Header3 from './Header3';
+
 
 import './Header2.css';
 import './Interests.css';
@@ -28,29 +28,23 @@ import secretgardencircle from './images/cards/secretgardencircle.png';
 import blackswancircle from './images/cards/blackswancircle.png';
 
 
-
 const Interests = () => {
-
-
     const flickrHandler = (url) => {
         window.open(url, "_blank");
       };
-
     return (
-
         <>
           <Header />
         <div className="body">
           <div className="performingarts" >
               <div className="performingtext">
                   <br />
-          <h4>The Performing Arts</h4>
+          <h3>The Performing Arts</h3>
           <br />
           <div className="performingimages">
             <img className="physical" src={physical} alt="physicaltheatre" />
             <img className="dance" src={ballet} alt="an early dance exam" />
             <img className="piano" src={piano} alt="piano" />
-    
             </div>
             <br />
            <p>Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
@@ -97,8 +91,7 @@ const Interests = () => {
                  <li><strong>Out Of Africa</strong> - <a href="http://www.karenblixen.com/">Karen Blixen</a></li>
                  <li><strong>Hope In A Ballet Shoe</strong> - <a href="http://www.michaeladeprince.com/about-1">Michaela DePrince</a></li>
                  <li><strong>Home</strong>- Julie Andrews</li> 
-                 <li><strong>Eat, Pray, Love </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>
-                
+                 <li><strong>Eat, Pray, Love </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>       
         </ul>
         </div>
         <br />
@@ -117,8 +110,7 @@ const Interests = () => {
         </ul>
         </div>
         </div>
-        <br />
-        
+        <br /> 
         </div>
         <div className="books2">
             <br />
@@ -160,7 +152,6 @@ const Interests = () => {
        <br />
        <br />
        <br />
-    
         <br /> 
        <br />
        <br />
@@ -169,7 +160,6 @@ const Interests = () => {
         <br />
         <br />
         </div>
-       
         <br />
         <br />
         <br />
@@ -254,20 +244,18 @@ const Interests = () => {
             <br />
             <br />
             <hr />
-      
-        <div className="pinkstrip"></div>
-        
+        <div className="pinkstrip"></div> 
       <hr />
       <div className="techie">
             <br />
             <hr />
-        <h4>Tech</h4>
+        <h3>Tech</h3>
         <br />
         <p>As a developer I am, naturally, interested in all-things tech. I strive to keep up-to-date with the latest news and trends through various means such as reading <strong>TechCrunch,
         TechRadar, Wired</strong>, by listening to podcasts such as the <strong>LadyBug</strong> podcast, and simply by being part of the developer community on Twitter.</p>
         <p>I also try to attend tech meetups when I can. Some I've been to are:</p>
         <p>from left to right: <strong>Node Girls London</strong> at Financial Times, an android development workshop,
-        organised by Codebar and hosted by <strong>Trainline</strong>, a Women in Tech event at <strong>Twitter/strong></strong>, a Codebar workshop hosted by Google, <strong>AthenaHack</strong>- an all-female
+        organised by Codebar and hosted by <strong>Trainline</strong>, a Women in Tech event at <strong>Twitter</strong>, a Codebar workshop hosted by Google, <strong>AthenaHack</strong>- an all-female
         hackathon and event, hosted by Queen Mary, University of London, Rails Girls London, hosted by <strong>Deliveroo.</strong>
         </p>
        <div className="tech">
@@ -284,7 +272,6 @@ const Interests = () => {
         <img className="athenacircle" src={athenacircle} alt="athenahack" />
         <img className="railscircle" src={railscircle} alt="railsgirlslondon" />
         </div>
-       <br />
        <br />
        <br />
        <br />
@@ -314,15 +301,13 @@ const Interests = () => {
          }
           title="flickr"
           />
-        <br />
-        <br />
        </div>
         </div>
        <div>
         </div>
-        <h4>Film</h4>
         <div className="film">
-            <br />
+        <h3 className="filmmm">Film</h3>
+        <br />
           <p>I'm a huge fan of films and enjoy most genres, whether that be romantic comedy, historical drama, horror, indie, romantic epics or thriller.</p>
         <p>I greatly admire the work and talent of actors, actresses and directors such as <strong>Meryl Streep, Dustin Hoffman, Vera Farmiga, and Woody Allen</strong>.</p>
         <p> Below are a few of my favourite films. From left to right: Meryl Streep and Robert Redford in <strong>Out of Africa</strong>, Andy Garcia and Vera Farmiga in</p>
@@ -342,23 +327,14 @@ const Interests = () => {
         </div>
         </div>
         <div className="grad"></div>
-            <div className="grad2"></div>
-                <div className="grad3"></div>
-                  <div className="grad4"></div>
-                    <div className="grad5"></div>
-                      <div className="grad6"></div>
-                      <div className="grad7"></div>
-            
-        
         <div className="languages">
-        <h4>Languages and travel</h4>
+        <h3 className="languagesss">Languages and travel</h3>
         <br />
           <p>There is something thrilling about being able to understand and communicate in another language and having studied modern languages at university, I've had the opportunity to learn a handful of languages; French, German and Dutch and a little Spanish.</p>
             <p>Studying languages also gave me the opportunity to live and work abroad; I worked in Brittany, France for six months before moving to Heidelberg to study at Germany's
             oldest university - the Ruprecht Karls Universitaet Heidelberg. </p>
              <p>Swipe or click 'next' to see some of the other places I've been</p>
         <div className="pink3" >
-
         <CarouselTravel />
         <br />
         </div>

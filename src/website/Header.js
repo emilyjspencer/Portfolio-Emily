@@ -19,6 +19,11 @@ import greybanner11 from './images/cards/greybanner11.png';
 import greybanner12 from './images/cards/greybanner12.png';
 import greybanner13 from './images/cards/greybanner13.png';
 import blossombanner from './images/cards/blossombanner.png';
+import newbanner3 from './images/cards/newbanner3.png';
+import newbanner5 from './images/cards/newbanner5.png';
+import newbanner6 from './images/cards/newbanner6.png';
+import newbanner7 from './images/cards/newbanner7.png';
+import newbanner8 from './images/cards/newbanner8.png';
 
 import './Header.css';
 
@@ -31,7 +36,7 @@ const Header = () => {
       
        
         <div className="header">
-            <img className="cherryblossom" src={blossombanner} alt="banner" />
+            <img className="cherryblossom" src={newbanner6} alt="banner" />
         </div>
         <div className="greystripabove"></div>
        

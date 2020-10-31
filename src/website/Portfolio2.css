@@ -3,19 +3,25 @@
 
 
 
-.body {
-    background-color: rgb(197, 166, 197);
+.main2 {
+    background-color: #d1c7c7;
     
 }
 
-.cardproject {
-    background-color: rgb(197, 166, 197);
+#click {
+    color: rgb(104, 102, 102);
+    font-family: Times New Roman;
+    font-size: 20px;
 }
 
+
+
 .work {
-    font-family: Sacramento;
+    font-family: Times New Roman;
     text-align: center;
     font-size: 50px;
+    padding: 20px;
+    color: rgb(112, 111, 111);
   
    
  

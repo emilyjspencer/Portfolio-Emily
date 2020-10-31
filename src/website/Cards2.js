@@ -10,6 +10,7 @@ import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Grid from '@material-ui/core/Grid';
 
 
 
@@ -23,9 +24,9 @@ const useStyles = makeStyles((theme) => ({
    padding: theme.spacing(2),
     marginLeft: '15px',
     color: 'gray',
-    width: '50%',
+    width: '60%',
     display: 'inline-block',
-    backgroundColor: '#dacbcb;',
+    backgroundColor: '#e6e6e6;',
     
   },
   media: {
@@ -131,8 +132,12 @@ export default function CardProject() {
     <>
     
   
-    <div className="body">
+    <div className="main2">
     <Card className={classes.root}>
+    <Grid
+      container
+      spacing={2} />
+      <Grid item s={2} />
       <CardHeader
         title="Alohomora 2.0"
         subheader="An application for Harry Potter fans"
@@ -183,6 +188,13 @@ export default function CardProject() {
     <br />
     <br />
     <Card className={classes.root}>
+    <Grid
+      container
+      spacing={2}
+      direction="row"
+      justify="flex-start"
+      alignItems="flex-start"
+      />
     <CardHeader
       title="Global Reads"
       subheader="An application to support the Global Reading Project initiative at UHS Wimbledon"

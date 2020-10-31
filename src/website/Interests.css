@@ -1,3 +1,16 @@
+h4 {
+    background-color:  #cac5c5;
+    
+}
+
+h3 {
+    color: rgb(112, 110, 110);
+}
+
+.filmmm {
+    background-color:  #c7c0c0;
+}
+
 .dance {
     width: 350px;
     height: 350px;
@@ -8,7 +21,7 @@
     margin: 10px;
     box-sizing: border-box;
     background-color: rgb(204, 201, 201);
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 
 }
 
@@ -22,7 +35,7 @@
     background-color: rgb(204, 201, 201);
     border-radius: 50%;
     margin: 10px;
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 
 }
 
@@ -36,7 +49,7 @@
     background-color: rgb(204, 201, 201);
     border-radius: 50%;
     margin: 10px;
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 
 
 }
@@ -49,7 +62,7 @@
     margin: 10px;
     box-sizing: border-box;
     background-color: #DDD;
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 
 }
 
@@ -61,7 +74,7 @@
     margin: 10px;
     box-sizing: border-box;
     background-color: #DDD;
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 
 }
 
@@ -75,7 +88,7 @@
     margin: 10px;
     box-sizing: border-box;
     background-color: #DDD;
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 }
 
 .blackswancircle {
@@ -86,7 +99,7 @@
     margin: 10px;
     box-sizing: border-box;
     background-color: #DDD;
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 
 }
 
@@ -98,7 +111,7 @@
     margin: 10px;
     box-sizing: border-box;
     background-color: #DDD;
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 
 }
 
@@ -110,7 +123,7 @@
     margin: 10px;
     box-sizing: border-box;
     background-color: #DDD;
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 
 }
 
@@ -123,7 +136,7 @@
     margin: 10px;
     box-sizing: border-box;
     background-color: #DDD;
-    border: solid  #e7d8d8 20px;
+    border: solid  #bdb3b3 20px;
 
 }
 
@@ -164,7 +177,9 @@
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
-    border: solid  #c9b7b7 20px;
+    border: solid  #bdb3b3 20px;
+    font-size: 16px;
+    color: rgb(114, 112, 112);
     
    
   
@@ -176,14 +191,15 @@
 }
 
 .photos {
-    background-color:  #e4d1d1;
-    height: 2000px;
+    background-color:  #c7c0c0;
+    height: 200px;
   
 }
 
 .photos2 {
-    background-color:  #e4e1e1;
+    background-color:  #c7c0c0;
 }
+
 
 .personal {
     background-color:  rgb(233, 227, 233);
@@ -193,10 +209,13 @@
     height: 450px;
     border-radius: 50%;
     text-align: center;
-    border: solid  #c9b7b7 20px;
+    border: solid  #bdb3b3 20px;
     position: relative;
     top: -35px;
     box-sizing: border-box;
+    font-size: 16px;
+    color: rgb(114, 112, 112);
+
 
 }
 
@@ -206,16 +225,20 @@
     width: 450px;
     border-radius: 50%;
     height: 450px;
-    border: solid  #c9b7b7 20px;
+    border: solid  #bdb3b3 20px;
     position: relative;
     top: -35px;
     box-sizing: border-box;
+    font-size: 16px;
+    color: rgb(114, 112, 112);
 }
 
 .children {
     background-color:   rgb(233, 227, 233);
     margin-left: 150px;
     width: 420px;
+    font-size: 16px;
+    color: rgb(114, 112, 112);
 }
 
 #picks {
@@ -223,7 +246,11 @@
 }
 
 .film {
-    background-color:  #e4d1d1;
+    background-color:  #c7c0c0;
+}
+
+.filmhead {
+    background-color:  #cac5c5;
 }
 
 .mixed {
@@ -234,7 +261,9 @@
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    border: solid  #c9b7b7 20px;
+    border: solid  #bdb3b3 20px;
+    font-size: 16px;
+    color: rgb(114, 112, 112);
 }
 
 .pinkstrip {
@@ -332,6 +361,7 @@ li {
     position: relative;
     left: 70px;
     margin-left: 50px;
+   
 }
 
 .header {
@@ -373,7 +403,7 @@ li {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border: solid 25px #e7d8d8;
+    border: solid  #bdb3b3 20px;
     border-radius: 50%;
     position: relative;
     top: -80px;
@@ -385,38 +415,35 @@ li {
 }
 
 .techie {
-    background-color:  #e4d1d1;
+    background-color:  #cac5c5;
 
 }
 
 #phototitle {
-    background-color:  #e4d1d1;
-    height: 0px;
+    background-color:  #c7c0c0;
+    height: 100px;
 }
 
 
 #photoheader {
     position: relative;
-    left: 290px;
+    left: 200px;
     bottom: 100px;
-    background-color:  #e4d1d1;
+    background-color:  #cac5c5;
 }
 
 .photostext {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    position: relative;
-    bottom: 40px;
-    background-color:  #e4d1d1;
-    height: 100px;
+    background-color:  #c7c0c0;
+    height: 1px;
 }
 
 .photostitle {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color:  #e4d1d1;
+    background-color:  #c7c0c0;
 }
 
 .nodecircle {
@@ -425,7 +452,7 @@ li {
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
-    background-color:  #e7d8d8;
+    border: solid  #bdb3b3 20px;
   
     padding: 15px;
    
@@ -441,7 +468,7 @@ li {
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
-    background-color:  #e7d8d8;
+    border: solid  #bdb3b3 20px;
     padding: 15px;
     
 }
@@ -452,7 +479,7 @@ li {
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
-    background-color:  #e7d8d8;
+    border: solid  #bdb3b3 20px;
     padding: 15px;
   
 
@@ -475,7 +502,7 @@ a:link {
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
-    background-color: #e7d8d8;
+    border: solid  #bdb3b3 20px;
     padding: 15px;
   
  
@@ -487,7 +514,7 @@ a:link {
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
-    background-color: #e7d8d8;
+    border: solid  #bdb3b3 20px;
     padding: 15px;
   
 
@@ -499,7 +526,7 @@ a:link {
     border-radius: 50%;
     margin: 10px;
     box-sizing: border-box;
-    background-color: #e7d8d8;
+    border: solid  #bdb3b3 20px;
     padding: 15px;
   
 
@@ -518,7 +545,7 @@ a:link {
     flex-direction: row;
     width: 100%;
     height: 480px;
-    background-color: #d1c7c7;
+    background-color:  #c7c0c0;
 }
 
 .bookstitle {
@@ -551,12 +578,16 @@ a:link {
 }
 
 .languages {
-    background-color:  rgb(248, 244, 244);
+    background-color:  #c7c0c0;
    
 }
 
+.languagesss {
+    background-color:  #c7c0c0;
+}
+
 .grad {
-    background-color:  rgb(235, 217, 217);
+    background-color:  rgb(197, 193, 193);
     height: 30px;
 }
 

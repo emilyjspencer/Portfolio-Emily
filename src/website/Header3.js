@@ -1,12 +1,16 @@
 import React from 'react';
 
-import './Header2.css';
-import mac from './images/cards/mac.png';
+import './Header3.css';
+
 
 const Header3 = () => {
 
     return (
-       <img className="ocean" src={mac}      />
+        <>
+            <div className="strip"></div>
+            <div className="strip2"></div>
+            <div className="strip3"></div>
+            </>
     )
 }
     

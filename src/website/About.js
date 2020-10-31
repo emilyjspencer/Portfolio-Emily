@@ -3,6 +3,7 @@ import { Animated } from "react-animated-css";
 
 import Tech from './Tech';
 import Header from './Header';
+import Header3 from './Header3';
 import Form from './Form';
 import Footer from './Footer';
 import logo from './images/cards/logo.png';
@@ -21,7 +22,7 @@ import './About.css';
 const About = () => {
   return (
     <>
-    <Header />
+   <Header3 />
     <div className="body">
         <div className="welcome" id="home">
           <div className="container">
@@ -46,6 +47,7 @@ const About = () => {
             <br />
       </div>
       </div>
+   <div className="strip4"></div>
       <div class="body2">
       <div>
         <br />

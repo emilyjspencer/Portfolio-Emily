@@ -9,7 +9,7 @@ import './NavBar.css';
 const NavBar = () => {
   return (
   
-      <Navbar fixed="top" bg="light" variant="light"  className="nav">
+      <Navbar fixed="top" bg="gray" variant="light"  className="nav">
         
         <Navbar.Brand href="">Emily Spencer</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

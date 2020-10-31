@@ -767,8 +767,8 @@ export default function CardProject() {
       />
       <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/guardian1.png")}
-        title="seventimestables"
+        image= { require ("./images/cards/guardianmain.png")}
+        title="guardian"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
@@ -802,7 +802,7 @@ export default function CardProject() {
           </Typography>
           <CardMedia
         className={classes.media}
-        image= { require ("./images/cards/news.png" )}
+        image= { require ("./images/cards/guardianlinks.png" )}
         title="news"
       />
         </CardContent>

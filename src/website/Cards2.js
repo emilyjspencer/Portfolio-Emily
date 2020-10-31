@@ -774,7 +774,7 @@ export default function CardProject() {
         <Typography variant="body2" color="textSecondary" component="p">
          A simple React application that calls on the Guardian API and allows users to read the latest news stories.
         </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://sable-notebook.surge.sh/">Guardian News</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://wicked-expert.surge.sh">Guardian News</a></Typography>
         <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Guardian-News-React">Guardian News on GitHub</a></Typography>
       </CardContent>
       <CardActions disableSpacing>

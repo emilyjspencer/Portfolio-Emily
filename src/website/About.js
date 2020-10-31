@@ -24,6 +24,7 @@ const About = () => {
     <>
    <Header3 />
     <div className="body">
+    <div className="strip"></div>
         <div className="welcome" id="home">
           <div className="container">
         <Animated animationInDuration="4000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>

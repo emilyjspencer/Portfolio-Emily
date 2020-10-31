@@ -15,6 +15,7 @@ const Portfolio2 = () => {
         <>
             <Header3/>
             <div className="main2">
+            <div className="strip"></div>
             <p className="work">Portfolio</p>
             <p id="click">Click on each card to find out more about the projects</p>
             <br />

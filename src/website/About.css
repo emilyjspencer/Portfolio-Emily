@@ -10,6 +10,11 @@
   right: 2000px;
 }
 
+.strip {
+  background-color: rgb(207, 207, 207);
+  height: 12px;
+}
+
 
 .typical {
   font-size: 60px;

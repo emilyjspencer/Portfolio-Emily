@@ -8,6 +8,11 @@
     
 }
 
+.strip {
+    background-color: rgb(207, 207, 207);
+    height: 12px;
+  }
+
 #click {
     color: rgb(104, 102, 102);
     font-family: Times New Roman;

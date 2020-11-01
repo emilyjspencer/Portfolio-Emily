@@ -36,10 +36,10 @@ const Interests = () => {
         <>
           <Header />
         <div className="body">
-          <div className="performingarts" >
+          <div className="performingarts">
               <div className="performingtext">
                   <br />
-          <h3>The Performing Arts</h3>
+          <h3 className="performingtitle">The Performing Arts</h3>
           <br />
           <div className="performingimages">
             <img className="physical" src={physical} alt="physicaltheatre" />
@@ -47,20 +47,19 @@ const Interests = () => {
             <img className="piano" src={piano} alt="piano" />
             </div>
             <br />
-           <p>Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
+           <p className="performingtext">Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
             a deep appreciation for all aspects of the performing arts. 
             Taking examinations in these areas on a yearly basis meant that I spent many an hour honing these skills,
             competing in competitions, performing at concerts, including local 
             Young Musician concerts, ABRSM High Scorers Concerts, and other concerts.
             I've also performed in various dance shows and musicals, including a performance at the John Smith's Stadium 
             in Huddersfield.</p>
-            <br />
-            <br />
             </div>
             </div>
             <div className="bookscontainer">
                 <div className="bookstitle">
-              <h3 align="center">Books</h3></div>
+              <h3 className="booksh3" align="center">Books</h3>
+              </div>
               <div className="bookshelf">
               <img src={spines2} className="spines" /><img src={spines2} className="spines" /><img src={spines2} className="spines2" />
               </div>
@@ -69,10 +68,9 @@ const Interests = () => {
                 <br />
             <p>My love of reading is what led me to my previous role. While I enjoy getting stuck into a good novel, I prefer to read non-fiction, especially autobiographies and personal development books. 
              My previous role also dictated much of what I read during a two-year period, so I have read plenty of young adult fiction books, from authors as varied as <strong>John Green</strong>, <strong>Holly Bourne</strong>,and <strong>Rainbow Rowell</strong> to <strong>Veronica Roth</strong>, 
-             <strong> Patrick Ness</strong>, and <strong>Nicola Yoon</strong>.</p>
-             <p>Some favourites:</p>
-             <br />
-             
+             <strong> Patrick Ness</strong>, and <strong>Nicola Yoon</strong>. Some favourites:</p>
+             <br />  
+            
         <div className="books">
             <br />
             <div className="memoirsmixed">
@@ -83,10 +81,10 @@ const Interests = () => {
         <ul>
             <li><strong>My Life So Far</strong> - <a href="https://www.janefonda.com/">Jane Fonda</a></li>
             <li><strong>When Breath Becomes Air</strong>- Paul Kalanithi</li>
-                <li><strong>A Lotus Grows In The Mud</strong> - Goldie Hawn</li>
+                <li><strong>A Lotus Grows In The Mud</strong> - <a href="https://mindup.org/about/">Goldie Hawn</a></li>
                 <li><strong>Long Walk To Freedom </strong>- Nelson Mandela</li>
                 <li><strong>The Girl From Aleppo</strong> 
-                 - Nujeen Mustafa</li>  
+                 - <a href="https://www.unhcr.org/uk/nujeen-mustafa.html">Nujeen Mustafa</a></li>  
                  <li><strong>How To Be A Woman</strong> - <a href="https://www.caitlinmoran.co.uk/">Caitlin Moran</a></li>
                  <li><strong>Out Of Africa</strong> - <a href="http://www.karenblixen.com/">Karen Blixen</a></li>
                  <li><strong>Hope In A Ballet Shoe</strong> - <a href="http://www.michaeladeprince.com/about-1">Michaela DePrince</a></li>
@@ -101,11 +99,11 @@ const Interests = () => {
             <br />
         <p><strong>Mixed non-fiction</strong></p>
         <ul>
-            <li><strong>Year of Wonder</strong> - Clemency Burton-Hill</li>
+            <li><strong>Year of Wonder</strong> - <a href="https://www.instagram.com/clemencybh/?hl=en">Clemency Burton-Hill</a></li>
             <li><strong>Art Nouveau </strong>- <a href="http://camilladelabedoyere.co.uk/">Camilla de la Bédoyère</a></li>
             <li><strong>The Art of Acting </strong>- <a href="https://stellaadler.com/">Stella Adler</a></li>
             <li><strong>Annie Leibovitz At Work</strong> - <a href="https://www.instagram.com/annieleibovitz/?hl=en">Annie Leibovitz</a></li>
-            <li><strong>Spark!</strong> - Dr John R Ratey</li>
+            <li><strong>Spark!</strong> - <a href="http://www.johnratey.com/">Dr John R Ratey</a></li>
             <li><strong>Parisian Intersections</strong>- <a href="https://www.birmingham.ac.uk/staff/profiles/languages/abbott-helen.aspx">Dr Helen Abbott</a></li>
         </ul>
         </div>
@@ -138,9 +136,9 @@ const Interests = () => {
         <p><strong>Young adult fiction</strong></p>
         <ul>
             <li><strong>Turtles All The Way Down</strong> - <a href="https://www.johngreenbooks.com/">John Green</a></li>
-            <li><strong>Boy 87 </strong>- Ele Fountain</li>
+            <li><strong>Boy 87 </strong>- <a href="https://elefountainpen.com/about-me-2/">Ele Fountain</a></li>
             <li><strong>Lies We Tell Ourselves </strong>- <a href="https://robintalley.com/">Robin Talley</a></li>
-            <li><strong>Holding Up The Universe</strong> - Jennifer Niven</li>
+            <li><strong>Holding Up The Universe</strong> -<a href="https://www.jenniferniven.com/">Jennifer Niven</a></li>
             </ul>
         <p><strong>Children's Books</strong></p>
         <ul>
@@ -251,12 +249,12 @@ const Interests = () => {
             <hr />
         <h3>Tech</h3>
         <br />
-        <p>As a developer I am, naturally, interested in all-things tech. I strive to keep up-to-date with the latest news and trends through various means such as reading <strong>TechCrunch,
-        TechRadar, Wired</strong>, by listening to podcasts such as the <strong>LadyBug</strong> podcast, and simply by being part of the developer community on Twitter.</p>
-        <p>I also try to attend tech meetups when I can. Some I've been to are:</p>
-        <p>from left to right: <strong>Node Girls London</strong> at Financial Times, an android development workshop,
+        <p className="techtext">As a developer I am, naturally, interested in all-things tech. I strive to keep up-to-date with the latest news and trends through various means such as reading <strong>TechCrunch,
+        TechRadar, Wired</strong>, by listening to podcasts such as the <strong>LadyBug</strong> podcast, and simply by being part of the developer community on Twitter.<br />
+        I also try to attend tech meetups when I can such as 
+        (from left to right): <strong>Node Girls London</strong> at Financial Times, an android development workshop,
         organised by Codebar and hosted by <strong>Trainline</strong>, a Women in Tech event at <strong>Twitter</strong>, a Codebar workshop hosted by Google, <strong>AthenaHack</strong>- an all-female
-        hackathon and event, hosted by Queen Mary, University of London, Rails Girls London, hosted by <strong>Deliveroo.</strong>
+        hackathon and event hosted by Queen Mary, University of London, Rails Girls London hosted by <strong>Deliveroo.</strong>
         </p>
        <div className="tech">
         <img className="nodecircle" src={nodecircle} alt="nodegirlslondon" />
@@ -288,19 +286,24 @@ const Interests = () => {
            that be with a phone, an SLR or an old-school digital model.
            I enjoy, as many others do, looking back through old photographs of places I've been, people I've met,
            events I've been to or, simply moments captured with friends and family.
-           I'm especially fond of the work of <a href="http://www.artnet.com/artists/annie-leibovitz/">Annie Leibovtiz</a> - renowned for her portraits of public figures and <a href="https://www.adambirdphotography.com/">Adam Bird</a>
-           <br />
-           <br />
-           Click on the photograph to see some of my amateur shots
+           I'm especially fond of the work of <a href="https://www.adambirdphotography.com/">Adam Bird</a> and <a href="http://www.artnet.com/artists/annie-leibovitz/">Annie Leibovitz</a> - renowned for her portraits of public figures.
          </p>
+         <br />
+         <br />
+         <br />
+         <p className="lagerfeldquote"><strong><em>"What i like about photographs is that they capture a moment that’s gone forever, <br />
+         impossible to reproduce."</em></strong> ~ Karl Lagerfeld</p>
         </div>
         <div className="photoscontainer">
+        <figure>
         <img className="deer" src={deer} alt="deer" 
            onClick={() =>
            flickrHandler("https://www.flickr.com/photos/51541259@N03/")
          }
           title="flickr"
           />
+        <figcaption>Click on the image to see some of my amateur shots</figcaption>
+        </figure> 
        </div>
         </div>
        <div>
@@ -308,11 +311,11 @@ const Interests = () => {
         <div className="film">
         <h3 className="filmmm">Film</h3>
         <br />
-          <p>I'm a huge fan of films and enjoy most genres, whether that be romantic comedy, historical drama, horror, indie, romantic epics or thriller.</p>
-        <p>I greatly admire the work and talent of actors, actresses and directors such as <strong>Meryl Streep, Dustin Hoffman, Vera Farmiga, and Woody Allen</strong>.</p>
-        <p> Below are a few of my favourite films. From left to right: Meryl Streep and Robert Redford in <strong>Out of Africa</strong>, Andy Garcia and Vera Farmiga in</p>
-        <p><strong>At Middleton</strong>, Natalie Portman in <strong>Black Swan</strong>, Carrie Mullan, Kate Winslet and Bella Riza in <strong>Hideous Kinky</strong>, Diane Keaton and Woody Allen in Allen's <strong>Manhattan</strong></p>
-        <p>Jacob Tremblay in Burn Your Maps, Andrew Knott, Heydon Prowse and Kate Maberly in <strong>The Secret Garden</strong></p>
+          <p>I'm a huge fan of films and enjoy most genres, whether that be romantic comedy, historical drama, horror, indie, romantic epics or thriller.<br />
+          I greatly admire the work and talent of actors, actresses and directors such as <strong>Meryl Streep, Dustin Hoffman, Vera Farmiga, and Woody Allen</strong>.<br />
+          A few favourites - from left to right: Meryl Streep and Robert Redford in <strong>Out of Africa</strong>, Andy Garcia and Vera Farmiga in 
+        <strong> At Middleton</strong>, Natalie Portman in <strong>Black Swan</strong>, Carrie Mullan, Kate Winslet and Bella Riza in <strong>Hideous Kinky</strong>, Diane Keaton and Woody Allen in Allen's <strong>Manhattan</strong>, 
+        Jacob Tremblay in <strong>Burn Your </strong>, Andrew Knott, Heydon Prowse and Kate Maberly in <strong>The Secret Garden.</strong></p>
         <div className="filmstrip">
         <img src={outofafricacircle} className="outofafricacircle" />
         <img src={atmiddletoncircle} className="atmiddletoncircle" />

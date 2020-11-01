@@ -26,7 +26,8 @@ const useStyles = makeStyles((theme) => ({
     color: 'gray',
     width: '60%',
     display: 'inline-block',
-    backgroundColor: '#e6e6e6;',
+    backgroundColor: '#ece4ec',
+    border: 'solid  rgb(148, 145, 148); 10px'
     
   },
   media: {

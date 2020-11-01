@@ -57,15 +57,14 @@ const About = () => {
       <p id="technologiesheader"><strong>My Toolkit</strong></p>
       <br />
       <div className="container4">
-      
-           +   Enzyme, Chai, Capybara, RSpec, Express, Sinatra   
-     
-           </div>
+          I also have experience with Node.js, Enzyme, Chai, Capybara, RSpec, Express, Sinatra, as well as with
+          pair-programming and git.   
+      </div>
       </div>
       </div>
       <br />
       </div>
-    
+      <br />
     </>
   )
 }

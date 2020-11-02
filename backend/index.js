@@ -1,6 +1,6 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const cors = require('cors');
+const bodyParser = require('body-parser');
 
 const sendGrid = require('@sendGrid/mail');
 
@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', '*'); // Change later to only allow our server
+    res.setHeader('Access-Control-Allow-Origin', '*'); 
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     next();
@@ -24,15 +24,15 @@ app.get('/backend', (req, res, next) => {
     res.send('200')
 });
 
-app.post('/backend/email', (req, res, next) => {
+app.post('/backend/contact', (req, res, next) => {
 
     console.log(req.body);
 
     sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
     const msg = {
-        to: 'emilyspencer89@hotmail.co.uk',
+        to: 'lajoiedevivre89@gmail.com',
         from: req.body.email,
-        subject: 'Website Contact',
+        subject: 'Message',
         text: req.body.message
     }
 

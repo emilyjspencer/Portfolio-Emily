@@ -1,4 +1,9 @@
 @media (max-width: 600px) {
+
+    .body {
+        max-width: 100%;
+        width: 100%;
+    }
     .dance {
         width: 20px;
         height: 20px;
@@ -41,7 +46,65 @@
     .performingarts {
         max-width: 100%;
     }
+    .bookshelf {
+        width: 10px;
+    }
+    .memoirs {
+        visibility: hidden;
+    }
+    .memoirshidden {
+        visibility: visible;
+    }
+    .personal {
+        visibility: hidden;
+    }
+    .personalhidden {
+        visibility: visible;
+    }
+    .ya {
+      visibility: hidden;
+    }
+    .yahidden {
+        visibility: visible;
+    }
+    .mixed {
+        visibility: hidden;
+    }
+    .mixedhidden {
+        visibility: visible;
+    }
+    .children {
+        visibility: hidden;
+    }
+    .childrenhidden {
+        visibility: visible;
+    }
+    .readinghidden {
+        position: relative;
+        right: 20px;
+    }
 }
+
+/* end of media query */
+
+
+.yahidden {
+    visibility: hidden;
+}
+.childrenhidden {
+    visibility: hidden;
+}
+.memoirshidden {
+    visibility: hidden;
+}
+.mixedhidden {
+    visibility: hidden;
+}
+.personalhidden {
+    visibility: hidden;
+}
+
+
 
 
 

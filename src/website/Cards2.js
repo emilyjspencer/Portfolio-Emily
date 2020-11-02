@@ -20,14 +20,15 @@ import './Cards2.css';
 const useStyles = makeStyles((theme) => ({
   root: {
     
-   flexGrow: 1,
-   padding: theme.spacing(2),
+    flexGrow: 1,
+    padding: theme.spacing(2),
     marginLeft: '15px',
     color: 'gray',
     width: '60%',
     display: 'inline-block',
     backgroundColor: '#ece4ec',
-    border: 'solid  rgb(148, 145, 148); 10px'
+    border: 'solid rgb(227, 223, 222) 5px',
+    boxShadow: '10px 10px 5px #aaaaaa'
     
   },
   media: {

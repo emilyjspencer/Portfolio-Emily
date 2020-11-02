@@ -2,7 +2,74 @@
     background-color: rgb(216, 211, 211);
     width: 100%;
     height: 1000px;
+    
 }
+
+@media (max-width: 600px) {
+  .body {
+    width: 150%;
+  }
+  .body2 {
+    position: relative;
+    top: 400px;
+    max-width: 100%;
+  }
+  #technologiesheader {
+    position: relative;
+    right: 20px;
+  }
+  .container4 {
+    position: relative;
+    max-width: 50%;
+  }
+  .fullstack {
+    font-size: 12px;
+  }
+
+  .text {
+    position: relative;
+    top: 10px;
+    left: -250px;
+  }
+
+  
+.welcome h2,
+.welcome h2 span,
+.welcome h3 span,
+.welcome h3::before, 
+.welcome h2::after {
+  position: relative;
+  font-size: 12px;
+  right: 508px;
+  top: 180px;
+
+}
+}
+
+.me3 {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  padding: 10px;
+  position: relative;
+  bottom: -20px;
+  left: 20px;
+ 
+}
+
+
+@media  (max-width: 600px) {
+.me3 {
+  width: 600px;
+  height: auto;
+margin: auto;
+  }
+}
+
 
 #portfolio {
   color: rgb(80, 77, 77);
@@ -21,16 +88,6 @@
   color: rgb(85, 75, 87);
 }
 
-.me2 {
-    width: 620px;
-    height: 420px;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-
-   
-}
 
 .container {
   padding: 20px;
@@ -143,6 +200,8 @@ p, h2  {
   flex-direction: row;
   float: right;
 }
+
+
 
 .body2 {
   background-color: #dacbcb;

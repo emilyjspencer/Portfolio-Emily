@@ -30,7 +30,7 @@ const About = () => {
         <Animated animationInDuration="4000" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
            <img className="me3" src={logo8} />
           </Animated>
-          <h2>Full Stack<span>Developer</span></h2>
+          <h2 className="fullstack">Full Stack<span>Developer</span></h2>
           </div>
           <br />
           <br />
@@ -58,7 +58,7 @@ const About = () => {
       <br />
       <div className="container4">
           I also have experience with Node.js, Enzyme, Chai, Capybara, RSpec, Express, Sinatra, as well as with
-          pair-programming and git.   
+          pair-programming and Git.   
       </div>
       </div>
       </div>

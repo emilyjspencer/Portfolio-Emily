@@ -27,7 +27,7 @@ export default class extends React.Component {
   render() {
     return (
       <div className="caro">
-      <Carousel backgroundColor="gray" slideWidth="380px">
+      <Carousel backgroundColor="gray" autoplay="true"  slideWidth="400px">
         <img className="travel" src={travel} />
            <img className="mozart" src={mozart}/>
            <img className="paris" src={paris} />

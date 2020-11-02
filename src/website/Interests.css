@@ -320,11 +320,11 @@ li {
 }
 
 .pink3 { 
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(133, 129, 129);
 }
 
 .pink4 { 
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(146, 139, 139);
 }
 
 .pink5 { 
@@ -404,6 +404,66 @@ li {
     height: 400px;
 }
 
+.rose {
+    height: 60px;
+    width: 35px;
+    opacity: 0.5;
+}
+
+.rose4 {
+    height: 60px;
+    width: 35px;
+    opacity: 0.5;
+    position: relative;
+    top: 20px;
+}
+
+.amycuddy {
+    position: relative;
+    bottom: 20px;
+}
+
+.enid {
+    position: relative;
+    bottom: 20px;
+}
+
+.clemency{
+    position: relative;
+    bottom: 20px;
+}
+
+.john{
+    position: relative;
+    bottom: 20px;
+}
+
+.personallist {
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+
+.memoirslist {
+    position: relative;
+    right: 10px;
+}
+
+.mixedlist {
+    position: relative;
+    right: 10px;
+}
+
+.yalist {
+    position: relative;
+    right: 10px;
+}
+
+.childrenslist {
+    position: relative;
+    right: 10px;
+}
+
 figcaption {
     margin: 60px;
     position: relative;
@@ -445,10 +505,14 @@ figcaption {
     margin-left: 100px;
 }
 
+.caption {
+    color: rgb(97, 95, 95);
+}
+
 
 #photoheader {
     position: relative;
-    left: 140px;
+    left: 1px;
     bottom: 100px;
     background-color:  #cac5c5;
     

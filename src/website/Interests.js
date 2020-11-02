@@ -1,6 +1,6 @@
 import React from 'react';
-import Carousel from './Carousel';
 import CarouselTravel from './CarouselTravel';
+import CarouselTravel2 from './CarouselTravel2';
 import Header2 from './Header2';
 import Header from './Header';
 import Header3 from './Header3';
@@ -8,6 +8,7 @@ import Header3 from './Header3';
 
 import './Header2.css';
 import './Interests.css';
+import rose from './images/cards/rose.svg';
 import deer from './images/cards/lake.jpg';
 import piano from './images/cards/pianocircle.png';
 import physical from './images/cards/physicalcircle.png';
@@ -77,8 +78,8 @@ const Interests = () => {
             <div className="memoirs">
                 <br />
                 <br />
-        <p><strong>Memoirs</strong></p>
-        <ul>
+        <p className="jane"><strong>Memoirs</strong></p>
+        <ul className="memoirslist">
             <li><strong>My Life So Far</strong> - <a href="https://www.janefonda.com/">Jane Fonda</a></li>
             <li><strong>When Breath Becomes Air</strong>- Paul Kalanithi</li>
                 <li><strong>A Lotus Grows In The Mud</strong> - <a href="https://mindup.org/about/">Goldie Hawn</a></li>
@@ -91,14 +92,15 @@ const Interests = () => {
                  <li><strong>Home</strong>- Julie Andrews</li> 
                  <li><strong>Eat, Pray, Love </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>       
         </ul>
+        <img src={rose} className="rose" />
         </div>
         <br />
         <div className="mixed">
             <br />
             <br />
             <br />
-        <p><strong>Mixed non-fiction</strong></p>
-        <ul>
+        <p className="clemency"><strong>Mixed non-fiction</strong></p>
+        <ul className="mixedlist">
             <li><strong>Year of Wonder</strong> - <a href="https://www.instagram.com/clemencybh/?hl=en">Clemency Burton-Hill</a></li>
             <li><strong>Art Nouveau </strong>- <a href="http://camilladelabedoyere.co.uk/">Camilla de la Bédoyère</a></li>
             <li><strong>The Art of Acting </strong>- <a href="https://stellaadler.com/">Stella Adler</a></li>
@@ -106,6 +108,7 @@ const Interests = () => {
             <li><strong>Spark!</strong> - <a href="http://www.johnratey.com/">Dr John R Ratey</a></li>
             <li><strong>Parisian Intersections</strong>- <a href="https://www.birmingham.ac.uk/staff/profiles/languages/abbott-helen.aspx">Dr Helen Abbott</a></li>
         </ul>
+        <img src={rose} className="rose4" />
         </div>
         </div>
         <br /> 
@@ -117,8 +120,8 @@ const Interests = () => {
                 <br />
                 <br />
                 <br />
-        <p><strong>Personal development</strong></p>
-        <ul>
+        <p className="amycuddy"><strong>Personal development</strong></p>
+        <ul className="personallist">
             <li><strong>Presence </strong>- <a href="https://www.amycuddy.com/">Amy Cuddy</a></li>
             <li><strong>#Girlboss</strong> - <a href="https://www.sophiaamoruso.com/">Sophia Amoruso</a></li>
             <li><strong>Big Magic </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>
@@ -127,24 +130,27 @@ const Interests = () => {
             <li><strong>Mindset </strong>- <a href="https://profiles.stanford.edu/carol-dweck">Carol Dweck</a></li> 
             <li><strong>Lean In</strong> - <a href="https://www.instagram.com/sherylsandberg/?hl=en">Sheryl Sandberg</a></li> 
         </ul>
+        <img src={rose} className="rose" />
         </div>
         <br />
         <div className="ya">
             <br />
             <br />
             <br />
-        <p><strong>Young adult fiction</strong></p>
-        <ul>
+        <p className="john"><strong>Young adult fiction</strong></p>
+        <ul className="yalist">
             <li><strong>Turtles All The Way Down</strong> - <a href="https://www.johngreenbooks.com/">John Green</a></li>
             <li><strong>Boy 87 </strong>- <a href="https://elefountainpen.com/about-me-2/">Ele Fountain</a></li>
             <li><strong>Lies We Tell Ourselves </strong>- <a href="https://robintalley.com/">Robin Talley</a></li>
             <li><strong>Holding Up The Universe</strong> -<a href="https://www.jenniferniven.com/">Jennifer Niven</a></li>
-            </ul>
-        <p><strong>Children's Books</strong></p>
-        <ul>
+        </ul>
+        <br />
+        <p className="enid"><strong>Children's Books</strong></p>
+        <ul className="childrenslist">
             <li><strong>The Enchanted Wood</strong>- Enid Blyton</li>
             <li><strong>The Magic Faraway Tree</strong> - <a href="https://www.enidblytonsociety.co.uk/">Enid Blyton</a></li>
         </ul>
+        <img src={rose} className="rose" />
         <br />
         <br />
        <br />
@@ -291,7 +297,7 @@ const Interests = () => {
          <br />
          <br />
          <br />
-         <p className="lagerfeldquote"><strong><em>"What i like about photographs is that they capture a moment that’s gone forever, <br />
+         <p className="lagerfeldquote"><strong><em>"What I like about photographs is that they capture a moment that’s gone forever, <br />
          impossible to reproduce."</em></strong> ~ Karl Lagerfeld</p>
         </div>
         <div className="photoscontainer">
@@ -302,7 +308,7 @@ const Interests = () => {
          }
           title="flickr"
           />
-        <figcaption>Click on the image to see some of my amateur shots</figcaption>
+        <figcaption className="caption"><strong>Click on the image to see some of my amateur shots</strong></figcaption>
         </figure> 
        </div>
         </div>
@@ -329,17 +335,15 @@ const Interests = () => {
         <br />
         </div>
         </div>
-        <div className="grad"></div>
         <div className="languages">
         <h3 className="languagesss">Languages and travel</h3>
         <br />
-          <p>There is something thrilling about being able to understand and communicate in another language and having studied modern languages at university, I've had the opportunity to learn a handful of languages; French, German and Dutch and a little Spanish.</p>
-            <p>Studying languages also gave me the opportunity to live and work abroad; I worked in Brittany, France for six months before moving to Heidelberg to study at Germany's
-            oldest university - the Ruprecht Karls Universitaet Heidelberg. </p>
+          <p>There is something thrilling about being able to understand and communicate in another language and having studied modern languages at university, I've had the opportunity to learn a handful of languages; <strong>French, German and Dutch</strong> and a little <strong>Spanish</strong>.</p>
+            <p>Studying languages also gave me the opportunity to live and work abroad; I worked in <strong>Brittany</strong>, France for six months before moving to <strong>Heidelberg</strong> to study at Germany's
+            oldest university - the <strong>Ruprecht Karls Universitaet Heidelberg.</strong></p>
              <p>Swipe or click 'next' to see some of the other places I've been</p>
         <div className="pink3" >
         <CarouselTravel />
-        <br />
         </div>
         </div>
         </div>

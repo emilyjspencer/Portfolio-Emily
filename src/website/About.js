@@ -56,9 +56,31 @@ const About = () => {
       <Tech />
       <p id="technologiesheader"><strong>My Toolkit</strong></p>
       <br />
+      <div className="hiddenlist">
+        <ul>
+          <li>Ruby</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Node</li>
+          <li>RSpec</li>
+          <li>Jasmine</li>
+          <li>Mocha</li>
+          <li>Chai</li>
+          <li>Jest</li>
+          <li>Enzyme</li>
+          <li>SQL</li>
+          <li>React</li>
+          <li>jQuery</li>
+          <li>Express</li>
+          <li>Sinatra</li>
+          <li>MongoDB</li>
+          <li>Bootstrap</li>
+          <li>Material UI</li>
+        </ul>
+      </div>
       <div className="container4">
-          I also have experience with Node.js, Enzyme, Chai, Capybara, RSpec, Express, Sinatra, as well as with
-          pair-programming and Git.   
+        <p>I also have experience with Node, Enzyme, Chai, Capybara, RSpec, Express, Sinatra, as well as with
+        pair-programming and Git.</p>  
       </div>
       </div>
       </div>

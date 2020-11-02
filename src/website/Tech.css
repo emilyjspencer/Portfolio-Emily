@@ -1,3 +1,31 @@
+@media (max-width: 600px) {
+
+    .both {
+
+        visibility: hidden;
+    }
+    .container1 {
+        visibility: hidden;
+
+    }
+    .container2 {
+        visibility: hidden;
+
+    }
+    .container3 {
+        visibility: hidden;
+
+    }
+  
+
+
+}
+
+
+
+
+
+
 .rails {
     height: 35px;
     width: 35px;

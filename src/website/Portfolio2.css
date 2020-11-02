@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 
+@media (max-width: 600px) {
+    .work {
+        position: relative;
+        right: 80px;
+    }
+
+    #click {
+        position: relative;
+        right: 80px;
+    }
+}
 
 .main2 {
     background-color: #d1c7c7;

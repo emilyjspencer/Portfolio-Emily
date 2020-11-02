@@ -8,7 +8,7 @@
   visibility: hidden;
   list-style-type: none;
   position: relative;
-  right: 40px;
+  right: 30px;
 }
 
 @media (max-width: 600px) {

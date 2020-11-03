@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Header from './Header';
 
 import './ContactForm.css';
 
@@ -63,6 +64,8 @@ class ContactForm extends Component {
 
 render () {
   return (
+    <>
+    <Header />
     <div className="contact-page">
       <div className="contact-text">
         <h3>Get in touch </h3>
@@ -97,6 +100,7 @@ render () {
         </Form>
       </div>
     </div>
+    </>
   );
   }}
 

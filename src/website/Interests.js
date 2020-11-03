@@ -1,6 +1,5 @@
 import React from 'react';
 import CarouselTravel from './CarouselTravel';
-import CarouselTravel2 from './CarouselTravel2';
 import Header2 from './Header2';
 import Header from './Header';
 import Header3 from './Header3';

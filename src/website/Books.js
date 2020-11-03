@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header3 from './Header3';
 import './Books.css'
-
+import spines2 from './spines2.png';
+import rose from './images/cards/rose.svg';
 
 const Books = () => {
 

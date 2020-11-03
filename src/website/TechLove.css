@@ -1,0 +1,60 @@
+.athenacircle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    border: solid  #bdb3b3 20px;
+    padding: 15px;
+}
+
+.googlecircle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    border: solid  #bdb3b3 20px;
+    padding: 15px;
+}
+
+.railscircle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    border: solid  #bdb3b3 20px;
+    padding: 15px;
+}
+
+
+.nodecircle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    border: solid  #bdb3b3 20px;
+    padding: 15px;
+}
+
+.javacircle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    border: solid  #bdb3b3 20px;
+    padding: 15px;   
+}
+
+.twittercircle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    border: solid  #bdb3b3 20px;
+    padding: 15px;
+}

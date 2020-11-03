@@ -1,7 +1,11 @@
 import React from 'react';
 
 import Header3 from './Header3';
+
 import './Performing.css'
+import piano from './images/cards/pianocircle.png';
+import physical from './images/cards/physicalcircle.png';
+import ballet from './images/cards/dancecircle.png';
 
 
 const Performing = () => {

@@ -182,3 +182,19 @@ a:visited {
     background-color: transparent;
     text-decoration: none;
 }
+
+.books {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.bookscontainer {
+    height: 2000px;
+    background-color: #d1c7c7;
+}
+
+.books2 {
+    display: flex;
+    flex-direction: column;
+}

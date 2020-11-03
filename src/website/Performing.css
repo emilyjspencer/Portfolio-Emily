@@ -40,26 +40,31 @@
 .performingarts {
     display: flex;
     word-wrap: normal;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #d1c7c7;
     height: 640px;
   
 }
 
+.performingtext {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 110px;
+}
+
 .performingimages {
     display: flex;
     flex-direction: row;
-    margin-left: 58px;   
+    margin: auto;  
+    position: relative;
+    bottom: 55px;
 }
 
 .performingtitle {
-   position: relative;
-   right: 30px;
-}
-
-.performingtext {
-    display: flex;
-    flex-direction: column;
-    margin-left: 80px;
-    margin-left: 80px;
+   padding: 40px;
+   margin: auto; 
+   background-color: #d1c7c7;
 }

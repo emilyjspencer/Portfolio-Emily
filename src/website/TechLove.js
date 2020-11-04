@@ -15,8 +15,7 @@ const TechLove = () => {
     return (
         <>
         <div className="techie">
-            <br />
-            <hr />
+        <br />
         <h3>Tech</h3>
         <br />
         <p className="techtext">As a developer I am, naturally, interested in all-things tech. I strive to keep up-to-date with the latest news and trends through various means such as reading <strong>TechCrunch,
@@ -26,7 +25,8 @@ const TechLove = () => {
         organised by Codebar and hosted by <strong>Trainline</strong>, a Women in Tech event at <strong>Twitter</strong>, a Codebar workshop hosted by Google, <strong>AthenaHack</strong>- an all-female
         hackathon and event hosted by Queen Mary, University of London, Rails Girls London hosted by <strong>Deliveroo.</strong>
         </p>
-       <div className="tech">
+        <div className="techimages">
+        <div className="tech">
         <img className="nodecircle" src={nodecircle} alt="nodegirlslondon" />
         <br />
         <img className="javacircle" src={javacircle} alt="codebarandroiddevelopment" />
@@ -39,6 +39,7 @@ const TechLove = () => {
         <img className="googlecircle" src={googlecircle} alt="googlecodebar" />
         <img className="athenacircle" src={athenacircle} alt="athenahack" />
         <img className="railscircle" src={railscircle} alt="railsgirlslondon" />
+        </div>
         </div>
        <br />
        <br />

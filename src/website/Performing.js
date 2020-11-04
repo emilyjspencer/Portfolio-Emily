@@ -21,11 +21,9 @@ const Performing = () => {
             <p className="performingtext">Having grown up taking ballet, tap, modern dance, piano, violin and speech & drama lessons, I have
               a deep appreciation for all aspects of the performing arts. 
               Taking examinations in these areas on a yearly basis meant that I spent many an hour honing these skills,
-              competing in competitions, performing at concerts, including local 
-              <strong>Young Musician concerts</strong>, <strong>ABRSM High Scorers Concerts</strong>, and other concerts.
-               I've also performed in various dance shows and musicals, including a performance at the <strong>John Smith's Stadium</strong>
-               in Huddersfield.</p>
-               </div>
+              competing in competitions, performing at concerts, including local <strong>Young Musician concerts</strong>, <strong>ABRSM High Scorers Concerts</strong>, and other concerts.
+              I've also performed in various dance shows and musicals, including a performance at the <strong>John Smith's Stadium</strong> in Huddersfield.</p>
+            </div>
             </>
         )
 }

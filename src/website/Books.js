@@ -15,19 +15,16 @@ const Books = () => {
         <div className="bookshelf">
           <img src={spines7} className="spines" /><img src={spines7} className="spines" /><img src={spines7} className="spines2" />
         </div>
-        <div className="reading">
         <br />
         <br />
-        <p>My love of reading is what led me to my previous role. While I enjoy getting stuck into a good novel, I prefer to read non-fiction, especially autobiographies and personal development books. 
+        <p className="readingparagraph">My love of reading is what led me to my previous role. While I enjoy getting stuck into a good novel, I prefer to read non-fiction, especially autobiographies and personal development books. 
         My previous role also dictated much of what I read during a two-year period, so I have read plenty of young adult fiction books, from authors as varied as <strong>John Green</strong>, <strong>Holly Bourne</strong>,and <strong>Rainbow Rowell</strong> to <strong>Veronica Roth</strong>, 
         <strong> Patrick Ness</strong>, and <strong>Nicola Yoon</strong>. Some favourites:</p>
-        <br />  
-        <div className="books">
         <br />
-        <div className="memoirsmixed">
+        <br />
+        <br />
+        <div className="memoirspersonal">
         <div className="memoirs">
-        <br />
-        <br />
         <p className="jane"><strong>Memoirs</strong></p>
         <ul className="memoirslist">
           <li><strong>My Life So Far</strong> - <a href="https://www.janefonda.com/">Jane Fonda</a></li>
@@ -42,31 +39,10 @@ const Books = () => {
            <li><strong>Home</strong>- Julie Andrews</li> 
            <li><strong>Eat, Pray, Love </strong>- <a href="https://www.elizabethgilbert.com/">Elizabeth Gilbert</a></li>       
         </ul>
-        <img src={rose} className="rose" />
+        <img src={rose} className="rosememoirs" />
         </div>
         <br />
-        <div className="mixed">
-        <br />
-        <br />
-        <br />
-        <p className="clemency"><strong>Mixed non-fiction</strong></p>
-        <ul className="mixedlist">
-          <li><strong>Year of Wonder</strong> - <a href="https://www.instagram.com/clemencybh/?hl=en">Clemency Burton-Hill</a></li>
-          <li><strong>Art Nouveau </strong>- <a href="http://camilladelabedoyere.co.uk/">Camilla de la Bédoyère</a></li>
-          <li><strong>The Art of Acting </strong>- <a href="https://stellaadler.com/">Stella Adler</a></li>
-          <li><strong>Annie Leibovitz At Work</strong> - <a href="https://www.instagram.com/annieleibovitz/?hl=en">Annie Leibovitz</a></li>
-          <li><strong>Spark!</strong> - <a href="http://www.johnratey.com/">Dr John R Ratey</a></li>
-          <li><strong>Parisian Intersections</strong>- <a href="https://www.birmingham.ac.uk/staff/profiles/languages/abbott-helen.aspx">Dr Helen Abbott</a></li>
-        </ul>
-        <img src={rose} className="rose4" />
-       </div>
-       </div>
-       <br /> 
-       </div>
-       <div className="books2">
-       <br />
-       <br />
-       <div className="personal">
+        <div className="personal">
         <br />
         <br />
         <br />
@@ -80,7 +56,28 @@ const Books = () => {
           <li><strong>Mindset </strong>- <a href="https://profiles.stanford.edu/carol-dweck">Carol Dweck</a></li> 
           <li><strong>Lean In</strong> - <a href="https://www.instagram.com/sherylsandberg/?hl=en">Sheryl Sandberg</a></li> 
        </ul>
-       <img src={rose} className="rose" />
+       <img src={rose} className="rosepersonal" />
+       </div>
+       </div>
+       <br /> 
+       <div className="mixedya">
+       <br />
+       <br />
+       <br />
+       <div className="mixed">
+        <br />
+        <br />
+        <br />
+        <p className="clemency"><strong>Mixed non-fiction</strong></p>
+        <ul className="mixedlist">
+          <li><strong>Year of Wonder</strong> - <a href="https://www.instagram.com/clemencybh/?hl=en">Clemency Burton-Hill</a></li>
+          <li><strong>Art Nouveau </strong>- <a href="http://camilladelabedoyere.co.uk/">Camilla de la Bédoyère</a></li>
+          <li><strong>The Art of Acting </strong>- <a href="https://stellaadler.com/">Stella Adler</a></li>
+          <li><strong>Annie Leibovitz At Work</strong> - <a href="https://www.instagram.com/annieleibovitz/?hl=en">Annie Leibovitz</a></li>
+          <li><strong>Spark!</strong> - <a href="http://www.johnratey.com/">Dr John R Ratey</a></li>
+          <li><strong>Parisian Intersections</strong>- <a href="https://www.birmingham.ac.uk/staff/profiles/languages/abbott-helen.aspx">Professor Helen Abbott</a></li>
+        </ul>
+        <img src={rose} className="rosemixed" />
        </div>
        <br />
        <div className="ya">
@@ -100,14 +97,13 @@ const Books = () => {
          <li><strong>The Enchanted Wood</strong>- Enid Blyton</li>
          <li><strong>The Magic Faraway Tree</strong> - <a href="https://www.enidblytonsociety.co.uk/">Enid Blyton</a></li>
        </ul>
-       <img src={rose} className="rose" />
-       </div>
-       </div>
-       </div>
+       <img src={rose} className="roseya" />
        </div>
        <hr />
        <div className="pinkstrip"></div> 
+       </div>
        <hr />
+       </div>
        </>
        )
     }

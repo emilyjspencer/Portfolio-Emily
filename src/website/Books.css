@@ -26,7 +26,8 @@
     background-color:  rgb(233, 227, 233);
     margin-right: 150px;
     position: relative;
-    top: -45px;
+    top: -480px;
+    left: 100px;
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -43,7 +44,8 @@
     background-color:  rgb(233, 227, 233);
     margin-right: 150px;;
     position: relative;
-    top: -40px;
+    bottom: -140px;
+    left: 80px;
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -52,15 +54,6 @@
     border: solid  #bdb3b3 20px;
     font-size: 16px;
     color: rgb(114, 112, 112);
-}
-
-.techtext {
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-.mixed {
-    margin-right: 200px;
 }
 
 
@@ -74,7 +67,8 @@
     text-align: center;
     border: solid  #bdb3b3 20px;
     position: relative;
-    top: -35px;
+    bottom: 300px;
+    left: 580px;
     box-sizing: border-box;
     font-size: 16px;
     color: rgb(114, 112, 112);
@@ -90,7 +84,8 @@
     height: 450px;
     border: solid  #bdb3b3 20px;
     position: relative;
-    top: -35px;
+    bottom: 460px;
+    left: -30px;
     box-sizing: border-box;
     font-size: 16px;
     color: rgb(114, 112, 112);
@@ -112,18 +107,36 @@ ul {
     list-style-type: none;
 }
 
-.rose {
-    height: 60px;
-    width: 35px;
-    opacity: 0.5;
-}
-
-.rose4 {
+.rosepersonal {
     height: 60px;
     width: 35px;
     opacity: 0.5;
     position: relative;
-    top: 20px;
+    bottom: 15px;
+}
+
+.rosemixed {
+    height: 60px;
+    width: 35px;
+    opacity: 0.5;
+    position: relative;
+    top: 40px;
+}
+
+.roseya {
+    height: 60px;
+    width: 35px;
+    opacity: 0.5;
+    position: relative;
+    bottom: 10px;
+}
+
+.rosememoirs {
+    height: 60px;
+    width: 35px;
+    opacity: 0.5;
+    position: relative;
+    top: 40px;
 }
 
 .amycuddy {
@@ -136,15 +149,21 @@ ul {
     bottom: 20px;
 }
 
-.clemency{
+.clemency {
     position: relative;
     bottom: 20px;
 }
 
-.john{
+.john {
     position: relative;
     bottom: 20px;
 }
+
+.jane {
+    position: relative;
+    bottom: -40px;
+}
+
 
 .personallist {
     position: relative;
@@ -155,6 +174,7 @@ ul {
 .memoirslist {
     position: relative;
     right: 10px;
+    top: 50px;
 }
 
 .mixedlist {
@@ -183,18 +203,25 @@ a:visited {
     text-decoration: none;
 }
 
-.books {
+.mixedya {
     text-align: center;
     display: flex;
     flex-direction: row;
 }
 
 .bookscontainer {
-    height: 2000px;
+    height: 1400px;
     background-color: #d1c7c7;
 }
 
-.books2 {
+.memoirspersonal {
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom: 200px;
+}
+
+.readingparagraph {
+    margin-left: 60px;
+    margin-right: 60px;
 }

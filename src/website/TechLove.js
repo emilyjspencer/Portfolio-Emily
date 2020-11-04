@@ -16,7 +16,9 @@ const TechLove = () => {
         <>
         <div className="techie">
         <br />
-        <h3>Tech</h3>
+        <div className="techtitle">
+          <h3>Tech</h3>
+        </div>
         <br />
         <p className="techtext">As a developer I am, naturally, interested in all-things tech. I strive to keep up-to-date with the latest news and trends through various means such as reading <strong>TechCrunch,
         TechRadar, Wired</strong>, by listening to podcasts such as the <strong>LadyBug</strong> podcast, and simply by being part of the developer community on Twitter.<br />

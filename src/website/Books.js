@@ -31,8 +31,7 @@ const Books = () => {
           <li><strong>When Breath Becomes Air</strong>- Paul Kalanithi</li>
           <li><strong>A Lotus Grows In The Mud</strong> - <a href="https://mindup.org/about/">Goldie Hawn</a></li>
           <li><strong>Long Walk To Freedom </strong>- Nelson Mandela</li>
-          <li><strong>The Girl From Aleppo</strong> 
-         - <a href="https://www.unhcr.org/uk/nujeen-mustafa.html">Nujeen Mustafa</a></li>  
+          <li><strong>The Girl From Aleppo</strong>  - <a href="https://www.unhcr.org/uk/nujeen-mustafa.html">Nujeen Mustafa</a></li>  
            <li><strong>How To Be A Woman</strong> - <a href="https://www.caitlinmoran.co.uk/">Caitlin Moran</a></li>
            <li><strong>Out Of Africa</strong> - <a href="http://www.karenblixen.com/">Karen Blixen</a></li>
            <li><strong>Hope In A Ballet Shoe</strong> - <a href="http://www.michaeladeprince.com/about-1">Michaela DePrince</a></li>

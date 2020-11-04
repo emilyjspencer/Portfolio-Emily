@@ -14,7 +14,9 @@ const Photography = () => {
     return (
         <>
         <div className="photos">
-          <h3 id="photoheader" align="center">Photography</h3>
+          <div className="photoheader">
+            <h3 align="center">Photography</h3>
+          </div>
           <br />
           <br />
           <div className="photos2">

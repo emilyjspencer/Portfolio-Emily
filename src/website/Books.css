@@ -228,3 +228,9 @@ a:visited {
     margin-left: 60px;
     margin-right: 60px;
 }
+ 
+.booksh3 {
+    position: relative;
+    top: -10px;
+    left: 10px;
+}

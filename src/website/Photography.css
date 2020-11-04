@@ -30,9 +30,10 @@ figcaption {
     font-style: italic;
 }
 
-#photoheader {
+.photoheader {
     position: relative;
     right: 50px;
+    bottom: 250px;
 
 }
 
@@ -54,4 +55,14 @@ figcaption {
 .photos {
     background-color: #d1c7c7;
     height: 500px;
+}
+
+.performingtitle {
+    position: relative;
+    bottom: 300px;
+}
+
+h3 {
+    position: relative;
+    bottom: 600px;
 }

@@ -15,7 +15,9 @@ const Film  = () => {
     return (
         <>
         <div className="film">
-        <h3 className="filmmm">Film</h3>
+        <div className="filmmm">
+          <h3>Film</h3>
+        </div>
         <br />
         <div className="filmtext">
           <p>I'm a huge fan of films and enjoy most genres, whether that be romantic comedy, historical drama, horror, indie, romantic epics or thriller.<br />

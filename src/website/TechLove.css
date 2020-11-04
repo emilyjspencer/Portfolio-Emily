@@ -65,6 +65,12 @@
     padding: 20px;
 }
 
+.techtitle {
+    position: relative;
+    bottom: 250px;
+    left: 170px;
+}
+
 .techimages {
     display: flex;
     flex-direction: column;

@@ -97,8 +97,10 @@ render () {
           </Form.Group>
 
           <Button variant="secondary" type="submit" disabled={this.state.disabled}>
-            Submit
+            Send Message
           </Button>
+          <br />
+          <br />
         </Form>
       </div>
       <Footer />

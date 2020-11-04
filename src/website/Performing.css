@@ -42,7 +42,7 @@
     word-wrap: normal;
     flex-direction: column;
     background-color: #d1c7c7;
-    height: 640px;
+    height: 800px;
   
 }
 
@@ -62,7 +62,14 @@
 }
 
 .performingtitle {
-   padding: 40px;
+   padding: 10px;
+   position: relative;
+   top: 10px;
    margin: auto; 
    background-color: #d1c7c7;
+}
+
+h3 {
+    position: relative;
+    bottom: -400px;
 }

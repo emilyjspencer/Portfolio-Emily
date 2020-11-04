@@ -10,8 +10,8 @@ const Performing = () => {
 
     return (
         <>
-          <h3 className="performingtitle">The Performing Arts</h3>
           <div className="performingarts">
+          <h2 className="performingtitle">The Performing Arts</h2>
           <div className="performingimages">
             <img className="physical" src={physical} alt="physicaltheatre" />
             <img className="dance" src={ballet} alt="an early dance exam" />

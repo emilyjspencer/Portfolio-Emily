@@ -9,6 +9,19 @@
 
 .languagesss {
     background-color:  #c7c0c0;
+    position: relative;
+    bottom: 250px;
+    left: 150px;
+}
+
+.langtext {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.langtext2 {
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .grad {

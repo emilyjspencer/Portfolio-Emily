@@ -7,13 +7,15 @@
     border: solid  #bdb3b3 20px;
     border-radius: 50%;
     position: relative;
-    top: -120px;
-    right: 40px;
+    top: -100px;
+    right: -60px;
     padding: 15px;
 }
 
 .lagerfeldquote {
     margin-left: 100px;
+    position: relative;
+    left: 40px;
 }
 
 .caption {
@@ -23,7 +25,33 @@
 figcaption {
     margin: 60px;
     position: relative;
-    bottom: 169px;
-    right: 40px;
+    bottom: 140px;
+    right: -50px;
     font-style: italic;
+}
+
+#photoheader {
+    position: relative;
+    right: 50px;
+
+}
+
+.photostext {
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.photos2 {
+    height: 700px;
+    background-color: #d1c7c7;
+    display: flex;
+    flex-direction: row;
+}
+
+.photos {
+    background-color: #d1c7c7;
+    height: 500px;
 }

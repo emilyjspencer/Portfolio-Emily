@@ -14,9 +14,12 @@ const Photography = () => {
     return (
         <>
         <div className="photos">
-        <div className="photostext">
-            <h3 id="photoheader" align="center">Photography</h3>
-       <p>From the moment I was handed a camera (a Christmas present from my father when I was twelve years old), I've enjoyed capturing moments in time through the lens, whether
+          <h3 id="photoheader" align="center">Photography</h3>
+          <br />
+          <br />
+          <div className="photos2">
+          <div className="photostext">
+           <p>From the moment I was handed a camera (a Christmas present from my father when I was twelve years old), I've enjoyed capturing moments in time through the lens, whether
            that be with a phone, an SLR or an old-school digital model.
            I enjoy, as many others do, looking back through old photographs of places I've been, people I've met,
            events I've been to or, simply moments captured with friends and family.
@@ -25,9 +28,6 @@ const Photography = () => {
          <br />
          <br />
          <br />
-         <p className="lagerfeldquote"><strong><em>"What I like about photographs is that they capture a moment that’s gone forever, <br />
-         impossible to reproduce."</em></strong> ~ Karl Lagerfeld</p>
-        </div>
         <div className="photoscontainer">
         <figure>
         <img className="deer" src={deer} alt="deer" 
@@ -39,8 +39,8 @@ const Photography = () => {
         <figcaption className="caption"><strong>Click on the image to see some of my amateur shots</strong></figcaption>
         </figure> 
        </div>
+       </div>
         </div>
-       <div>
         </div>
         </>
     )

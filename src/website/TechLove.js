@@ -41,15 +41,7 @@ const TechLove = () => {
         <img className="railscircle" src={railscircle} alt="railsgirlslondon" />
         </div>
         </div>
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-    </div>
+      </div>
         </>
     )
 }

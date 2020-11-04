@@ -3,6 +3,7 @@ import axios from 'axios';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './Header';
+import Footer from './Footer';
 
 import './ContactForm.css';
 
@@ -66,14 +67,19 @@ render () {
   return (
     <>
     <Header />
-    <div className="contact-page">
-      <div className="contact-text">
+    <div className="contactpage">
+      <div className="text">
         <h3>Get in touch </h3>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
-      <div className="contact-form">
+      <div className="form">
         <Form onSubmit={this.handleSubmit}>
           <Form.Group controlId="formBasicText">
-            <Form.Label> Name</Form.Label>
             <Form.Control
                 name="name"
                 type="text"
@@ -82,23 +88,20 @@ render () {
                 onChange={this.handleChange} />
           </Form.Group>
 
-         
-
           <Form.Group controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
             <Form.Control name="email" type="email" placeholder="Enter email" value={this.state.email} onChange={this.handleChange} />
           </Form.Group>
 
           <Form.Group controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Message</Form.Label>
             <Form.Control name="message" as="textarea" rows="5" placeholder="Enter message" value={this.state.message} onChange={this.handleChange}/>
           </Form.Group>
 
-          <Button variant="primary" type="submit" disabled={this.state.disabled}>
+          <Button variant="secondary" type="submit" disabled={this.state.disabled}>
             Submit
           </Button>
         </Form>
       </div>
+      <Footer />
     </div>
     </>
   );

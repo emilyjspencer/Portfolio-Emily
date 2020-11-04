@@ -1,6 +1,7 @@
 .body {
     background-color: rgb(216, 211, 211);
     width: 100%;
+    max-width: 100%;
     height: 1000px;   
 }
 
@@ -30,6 +31,7 @@
     position: relative;
     top: 400px;
     max-width: 100%;
+  
   }
   p {
     max-width: 100%;
@@ -42,7 +44,7 @@
   }
   #technologiesheader {
     position: relative;
-    right: 100px;
+    left: -1px;
     bottom: 400px;
   }
   .container4 {
@@ -58,7 +60,7 @@
   .text {
     position: relative;
     top: -35px;
-    left: -180px;
+    left: -100px;
     width: 70%;
     margin: 5px;
     text-align: center !important;
@@ -133,16 +135,16 @@ margin: auto;
 
 .container4 {
   position: relative;
-  left: 10px;
-  bottom: 400px;
+  left: 80px;
+  bottom: 500px;
 }
 
 .text {
   float: right;
-  width: 60%;
+  width: 50%;
   position: relative;
   bottom: 300px;
-  right: 80px;
+  right: 135px;
   height: 70px;
 }
 
@@ -167,7 +169,7 @@ p {
   padding: 10px;
   position: relative;
   bottom: -20px;
-  right: 30px;
+  left: 15px;
  
 }
 
@@ -188,14 +190,16 @@ p {
 .portfolio {
   color: gray;
   position: relative;
-  left: 10px;
+  left: 20px;
 }
 
 #technologiesheader {
 
-text-align: center;
+  text-align: center;
   font-size: 28px;
   text-decoration: strong;
+  position: relative;
+  left: -10px;
 }
 
 .techstack {
@@ -243,6 +247,12 @@ p, h2  {
 .body2 {
   background-color: #dacbcb;
   height: 700px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 105%;
+  max-width: 100%;
+  position: relative;
+  right: 80px;
 }
 
 #portfolio {

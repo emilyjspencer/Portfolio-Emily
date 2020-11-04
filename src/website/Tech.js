@@ -36,22 +36,26 @@ const Tech = () =>  (
   <div className="container1">
     <table>
       <tr>
-        <td><FaGem className="ruby" /><p>Ruby</p></td>
-        <td><SiJavascript className="javascript" /><p>JavaScript</p></td>
-        <td><DiPython className="python" /><p>Python</p></td>
+        <td><FaGem className="ruby" /></td>
+        <td>Ruby</td>
+        <td><SiJavascript className="javascript" /></td>
+        <td>JavaScript</td>
+        <td><DiPython className="python" /></td>
+        <td>Python</td>
       </tr>
       </table>
      <br />
       <table>
         <tr>
-        <td> <img className="rails" src={rails} />
-      <p>Rails</p></td>
+        <td> <img className="rails" src={rails} /></td>
+        <td>Rails</td>
         </tr>
       </table>
       <br />
       <table>
         <tr>
-        <td><DiJqueryLogo className="jquery" /><p>jQuery</p></td>
+        <td><DiJqueryLogo className="jquery" /></td>
+        <td>jQuery</td>
         </tr>
       </table>
       <br />
@@ -63,10 +67,10 @@ const Tech = () =>  (
       <div className="container2">
       <table>
         <tr>
-        <td><SiPostgresql className="postgres"/>
-        <p>PostgreSQL</p></td>
-        <td><SiMongodb className="mongodb" />
-        <p>MongoDB</p></td>
+        <td><SiPostgresql className="postgres"/></td>
+        <td>PostgreSQL</td>
+        <td><SiMongodb className="mongodb" />   </td>
+        <td>MongoDB</td>
         </tr>
         <br />
         <br />
@@ -74,12 +78,12 @@ const Tech = () =>  (
       <br />
       <table> 
         <tr>
-        <td> <SiMaterialUi className="materialui"  />
-        <p>MaterialUi</p></td>
-        <td><SiHtml5 className="html"/>
-        <p>HTML5</p></td>
-        <td> <img className="css" src={css} />
-      <p>CSS3</p></td>
+        <td> <SiMaterialUi className="materialui"  /></td>
+        <td>Material UI</td>
+        <td><SiHtml5 className="html"/></td>
+        <td>HTML5</td>
+        <td><img className="css" src={css} /></td>
+        <td>CSS3</td>
         </tr>
         <br />
         <br />
@@ -92,15 +96,16 @@ const Tech = () =>  (
       <div className="container3">
       <table>
         <tr>
-        <td> <GiJasmine className="jasmine2" />
-        <p>Jasmine</p></td>
-        <td><SiJest className="jest"/> 
-        <p>Jest</p></td>
-        <td> <SiMocha className="mocha"/>
-        <p>Mocha</p></td>
-        <td> <FaReact className="react" />
-      <p>React</p></td>
-      <td><SiBootstrap className="bootstrap" /><p>Bootstrap</p></td>
+        <td> <GiJasmine className="jasmine2" /></td>
+        <td>Jasmine</td>
+        <td><SiJest className="jest"/></td>
+        <td>Jest</td>
+        <td><SiMocha className="mocha"/></td>
+        <td>Mocha</td>
+        <td><FaReact className="react" /></td>
+        <td>React</td>
+        <td><SiBootstrap className="bootstrap" /></td>
+        <td>Bootstrap</td>
         </tr>
       </table>
       <br />

@@ -1,7 +1,6 @@
 @media (max-width: 600px) {
 
     .both {
-
         visibility: hidden;
     }
     .container1 {
@@ -16,14 +15,10 @@
         visibility: hidden;
 
     }
-  
-
 
 }
 
-
-
-
+/* end of media query */
 
 
 .rails {
@@ -245,22 +240,23 @@
 
 .container1 {
     display: flex;
-    flex-direction: row;
-
-
-    
+    flex-direction: row;  
+    margin-left: 420px;
+  
 }
 
 .container2 {
     display: flex;
     flex-direction: row;
-
-
+    margin-left: 380px;
+   
 }
 
 .container3 {
     display: flex;
     flex-direction: row;
+    margin-left: 420px;
+   
 }
 
 .container4 {

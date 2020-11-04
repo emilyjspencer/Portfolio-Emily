@@ -26,60 +26,57 @@ const About = () => {
           <br />
           <br />
           <div className="text">
-            <br />
+          <br />
            <p>I'm a full stack developer and graduate of <strong>Makers Academy</strong> and the <strong>University of Sheffield's School of Languages and
            Cultures.</strong></p>
            <p>I've spent the majority of my working life in the education sector during which time I discovered
            the wonders of coding.</p>
            <p>Starting out with <strong>HTML, CSS</strong> and <strong>JavaScript</strong>, I built on this learning at Makers where I gained a solid understanding of object-oriented programming principles,
             test-driven development, front-and-backend development, agile methodologies and object-oriented design.</p>
-            <br />
-            <br /> 
-            <p id="portfolio"><strong>Please consult my portfolio for examples of my work</strong></p>  
-            <br />
-      </div>
-      </div>
-   <div className="strip4"></div>
-      <div class="body2">
-      <div>
-        <br />
-        <br />
-      <Tech />
-      <p id="technologiesheader"><strong>My Toolkit</strong></p>
-      <br />
-      <div className="hiddenlist">
-        <ul>
-          <li>Ruby</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Node</li>
-          <li>RSpec</li>
-          <li>Jasmine</li>
-          <li>Mocha</li>
-          <li>Chai</li>
-          <li>Jest</li>
-          <li>Enzyme</li>
-          <li>SQL</li>
-          <li>React</li>
-          <li>jQuery</li>
-          <li>Express</li>
-          <li>Sinatra</li>
-          <li>MongoDB</li>
-          <li>Bootstrap</li>
-          <li>Material UI</li>
-        </ul>
-      </div>
-      <div className="container4">
-        <p>I also have experience with Node, Enzyme, Chai, Capybara, RSpec, Express, Sinatra, as well as with
-        pair-programming and Git.</p>  
-      </div>
-      </div>
-      </div>
-      <br />
-      </div>
-      <br />
-    </>
-  )
-}
+           <br />
+           <br /> 
+           <p id="portfolio"><strong>Please consult my portfolio for examples of my work</strong></p>  
+           <br />
+           </div>
+           </div>
+           <div class="body2">
+           <br />
+           <br />
+           <p id="technologiesheader"><strong>My Toolkit</strong></p>
+           <br />
+           <Tech />
+           <div className="hiddenlist">
+           <ul>
+            <li>Ruby</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Node</li>
+            <li>RSpec</li>
+            <li>Jasmine</li>
+            <li>Mocha</li>
+            <li>Chai</li>
+            <li>Jest</li>
+            <li>Enzyme</li>
+            <li>SQL</li>
+            <li>React</li>
+            <li>jQuery</li>
+            <li>Express</li>
+            <li>Sinatra</li>
+            <li>MongoDB</li>
+            <li>Bootstrap</li>
+            <li>Material UI</li>
+          </ul>
+          </div>
+          <div className="container4">
+            <p>I also have experience with Node, Enzyme, Chai, Capybara, RSpec, Express, Sinatra, as well as with
+            pair-programming and Git.</p>  
+          </div>
+          </div>
+          </div>
+          <br />
+          <br />
+         </>
+        )
+     }
 
 export default About;

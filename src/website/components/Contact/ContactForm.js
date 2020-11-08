@@ -16,22 +16,27 @@ class ContactForm extends Component {
           name: '',
           email: '',
           message: '',
-          sent: null,
-          disabled: false
+          emailSent: null,
+          disabled: false,
         }
+        //this.handleChange = this.handleChange.bind(this)
+        //this.handleSubmit = this.handleSubmit.bind(this)
+   
     }   
     
-    handleChange = (event) => {
+    handleChange = event => {
       const target = event.target;
       const value = target.value;
       const name = target.name;
+    
+    
 
-      this.setState({
+        this.setState({
           [name]: value
-      })
-  }
+        })
+    }
 
-  handleSubmit(event) {
+  handleSubmit = event => {
 
       event.preventDefault();
   
@@ -69,7 +74,7 @@ render () {
     <Header />
     <div className="contactpage">
       <div className="text">
-        <h3>Get in touch </h3>
+        <h3>Get in touch</h3>
         <br />
         <br />
         <br />
@@ -83,7 +88,7 @@ render () {
             <Form.Control
                 name="name"
                 type="text"
-                placeholder="Enter your first name"
+                placeholder="Enter your name"
                 value={this.state.name}
                 onChange={this.handleChange} />
           </Form.Group>
@@ -103,6 +108,12 @@ render () {
           <br />
         </Form>
       </div>
+      <div className="alternative">
+        Alternatively, you can email me at: lajoiedevivre89@gmail.com
+      </div>
+      <br />
+      <br />
+      <br />
       <Footer />
     </div>
     </>

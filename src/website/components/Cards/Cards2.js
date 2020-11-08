@@ -1068,6 +1068,52 @@ export default function CardProject() {
     <br />
     <Card className={classes.root}>
       <CardHeader
+        title="Guess the French word"
+        subheader="A Vanilla JavaScript application to test your knowledge of some commmon french words"
+      />
+      <CardMedia
+        className={classes.media}
+        image= { require ("../../images/cards/game.png")}
+        title="guessthefrenchword"
+      />
+    <CardContent>
+        <Typography variant="body2" color="textSecondary" component="p">
+         A React application to test your knowledge of some common French words.
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Try it for yourself: <a href="http://receptive-selection.surge.sh/">Guess the French word</a></Typography>
+        <Typography variant="body2" color="textSecondary" component="p">See the code: <a href="https://github.com/emilyjspencer/Guess-the-French-word">Guess the French word on GitHub</a></Typography>
+      </CardContent>
+      <CardActions disableSpacing>
+        <IconButton
+          className={clsx(classes.expand, {
+            [classes.expandOpen]: expanded17,
+          })}
+          onClick={handleExpandClick17}
+          aria-expanded={expanded17}
+          aria-label="show more"
+        >
+          <ExpandMoreIcon />
+        </IconButton>
+      </CardActions>
+      <Collapse in={expanded17} timeout="auto" unmountOnExit>
+        <CardContent>
+          <Typography paragraph>Tech Stack</Typography>
+          <Typography paragraph>
+            Vanilla JavaScript, CSS
+          </Typography>
+          <Typography paragraph>
+            Motivation: I wanted to create another simple application using Vanilla JavaScript and thus DOM manipulation.
+          </Typography>
+          <CardMedia
+        className={classes.media}
+        image= { require ("../../images/cards/wronganswer.png" )}
+        title="guessthefrenchword"
+      />
+        </CardContent>
+      </Collapse>
+    </Card>
+    <Card className={classes.root}>
+      <CardHeader
         title="Vegan Ventures - Coming Soon"
         subheader="A React application to showcase my sister's amazing vegan dishes"
       />
@@ -1086,16 +1132,16 @@ export default function CardProject() {
       <CardActions disableSpacing>
         <IconButton
           className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded17,
+            [classes.expandOpen]: expanded18,
           })}
-          onClick={handleExpandClick17}
-          aria-expanded={expanded17}
+          onClick={handleExpandClick18}
+          aria-expanded={expanded18}
           aria-label="show more"
         >
           <ExpandMoreIcon />
         </IconButton>
       </CardActions>
-      <Collapse in={expanded17} timeout="auto" unmountOnExit>
+      <Collapse in={expanded18} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph>Tech Stack</Typography>
           <Typography paragraph>

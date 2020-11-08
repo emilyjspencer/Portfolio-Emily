@@ -5,12 +5,21 @@
 
 .text {
   text-align: center;
+  height: 80px;
+  position: relative;
+  top: -250px;
+  color: rgb(73, 72, 72);
 }
 
 h3 {
     position: relative;
     top: 270px;
     right: 170px;
+}
+
+.alternative {
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .form {
